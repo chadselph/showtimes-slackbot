@@ -1,7 +1,7 @@
 package me.chadrs.moviepoll
 
 import java.time.format.DateTimeFormatter
-import java.time.{LocalDate, LocalTime, ZoneOffset, ZonedDateTime}
+import java.time.{Instant, LocalDate, LocalTime, ZonedDateTime}
 
 import me.chadrs.data.StaticShowtimes
 import me.chadrs.slack.SlackAction
@@ -71,7 +71,7 @@ object ShowtimesPoll {
         val form = readMultiselectForm(sa.originalMessage.attachments)
         val simpleHourFormat = DateTimeFormatter.ofPattern("ha")
         def parseHour(hour: String): LocalTime = LocalTime.parse(hour.toUpperCase, simpleHourFormat)
-        listShowtimes(form.getOrElse("movie", Nil), form.getOrElse("theater", Nil), LocalDate.parse(day), parseHour(form.get("time").flatMap(_.headOption).getOrElse("4pm")))
+        listShowtimes(form.getOrElse("movie", Nil), form.getOrElse("theater", Nil), LocalDate.parse(day), parseHour(form.get("time").flatMap(_.headOption).getOrElse("12am")))
 
       case sa @ SlackAction.SelectedOption(cmd, arg) =>
         response(s"$cmd($arg)")
@@ -87,10 +87,11 @@ object ShowtimesPoll {
     val localOffset = ZonedDateTime.now.getOffset
     val maxActionsPerAttachmentInSlack = 5
     val showtimes = StaticShowtimes.getShowTimes().filter { showtime =>
-      movies.contains(showtime.movieName) && theaters.contains(showtime.theaterName)
-      /* && showtime.start.isAfter(
-        day.atTime(after).toInstant(localOffset)
-      ) && showtime.start.isBefore(day.plusDays(1).atTime(0, 0).toInstant(localOffset)) */
+      (movies.isEmpty || movies.contains(showtime.movieName)) &&
+        (theaters.isEmpty || theaters.contains(showtime.theaterName)) &&
+        showtime.start.isAfter(day.atTime(after).toInstant(localOffset) ) &&
+        showtime.start.isBefore(day.plusDays(1).atTime(0, 0).toInstant(localOffset)) &&
+        showtime.start.isAfter(Instant.now())
     }.groupBy(s => (s.movieName, s.theaterName)).toList.sortBy(_._1)
 
     respondAndReplace("Showtimes", showtimes.flatMap { case ((movie, theater), times) =>

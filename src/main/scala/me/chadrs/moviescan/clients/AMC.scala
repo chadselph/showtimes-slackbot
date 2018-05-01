@@ -53,11 +53,11 @@ class AMC(client: Client[IO],
         .flatMap(_("criticsScore"))
         .flatMap(_.asNumber)
         .flatMap(_.toInt)
-      movieJson.findAllByKey("_theatre").flatMap { theatreJson =>
-        val theatreName = theatreJson.stringFromObject("name")
-        theatreJson.findAllByKey("_showtime").flatMap { showtimeJson =>
-          val when = showtimeJson.stringFromObject("when")
-          val start = when.map(Instant.parse)
+      movieJson.findAllByKey("_showtime").flatMap { showtimeJson =>
+        val when = showtimeJson.stringFromObject("when")
+        val start = when.map(Instant.parse)
+        showtimeJson.findAllByKey("_theatre").flatMap { theatreJson =>
+          val theatreName = theatreJson.stringFromObject("name")
 
           (for {
             mn <- movieName
@@ -71,66 +71,59 @@ class AMC(client: Client[IO],
   }
 
   def makeGraphQl(theaters: Seq[String]): String =
-    s"""
-        |{
-        |  viewer {
-        |    user {
-        |      ${
-      val theatreSections = for ((th, i) <- theaters.zipWithIndex) yield {
-        s"""theatre_$i: movies(theatreSlug: ${Json.fromString(th).noSpaces}) {
-           | ...getShowtimes
-           |}""".stripMargin
-      }
-      theatreSections.mkString("\n")
 
+    s"""
+       |{
+       |  viewer {
+      ${
+        val theatreSections = for ((th, i) <- theaters.zipWithIndex) yield {
+          s"""theatre_$i: theatre(slug: ${Json.fromString(th).noSpaces}) {
+              movies {
+               ...getShowtimes
+             }
+          }"""
+        }
+      theatreSections.mkString("\n")
     }
-        |    }
-        |  }
-        |}
-        |
-        |fragment getShowtimes on MovieConnection {
-        |  edges {
-        |    _movie: node {
-        |      name
-        |      runTime
-        |      mpaaRating
-        |      ratings {
-        |        rottenTomatoes {
-        |          criticsScore
-        |        }
-        |      }
-        |      theatres(first: 1) {
-        |        edges {
-        |          _theatre: node {
-        |            name
-        |            formats {
-        |              items {
-        |                attributes {
-        |                  abbreviation
-        |                }
-        |                groups {
-        |                  edges {
-        |                    node {
-        |                      showtimes(first: 10) {
-        |                        edges {
-        |                          _showtime: node {
-        |                            when
-        |                            isSoldOut
-        |                            isAlmostSoldOut
-        |                          }
-        |                        }
-        |                      }
-        |                    }
-        |                  }
-        |                }
-        |              }
-        |            }
-        |          }
-        |        }
-        |      }
-        |    }
-        |  }
-        |}
-  """.stripMargin
+       |  }
+       |}
+       |
+       |fragment getShowtimes on TheatreMovieConnection {
+       |  edges {
+       |    _movie: node {
+       |      name
+       |      runTime
+       |      mpaaRating
+       |      ratings {
+       |        rottenTomatoes {
+       |          criticsScore
+       |        }
+       |      }
+       |      formats {
+       |        items {
+       |          groups {
+       |            edges {
+       |              node {
+       |                showtimes(first: 10) {
+       |                  edges {
+       |                    _showtime: node {
+       |                      _theatre: theatre {
+       |                        name
+       |                      }
+       |                      when: showDateTimeUtc
+       |                      isAlmostSoldOut
+       |                    }
+       |                  }
+       |                }
+       |              }
+       |            }
+       |          }
+       |        }
+       |      }
+       |    }
+       |  }
+       |}
+       |
+     """.stripMargin
 
 }

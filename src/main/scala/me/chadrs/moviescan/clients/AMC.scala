@@ -26,7 +26,6 @@ class AMC(client: Client[IO],
 
   def queryMovies(theaters: Seq[String]): IO[List[Showtime]] = {
     val query = GraphQLQuery(makeGraphQl(theaters))
-    println(query.asJson.spaces2)
     client.fetch(POST.apply(baseUrl, query.asJson)) { resp =>
       resp.as[Json].map(decodeGraphJsonToShowTimes)
     }

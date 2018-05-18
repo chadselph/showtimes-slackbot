@@ -1,0 +1,6090 @@
+[
+  {
+    "tmsId": "MV000118140000",
+    "rootId": "6252",
+    "subType": "Feature Film",
+    "title": "2001: A Space Odyssey",
+    "releaseYear": 1968,
+    "releaseDate": "1968-04-02",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Science fiction"
+    ],
+    "longDescription": "An imposing black structure provides a connection between the past and the future in this enigmatic adaptation of a short story by revered sci-fi author Arthur C. Clarke. When Dr. Dave Bowman (Keir Dullea) and other astronauts are sent on a mysterious mission, their ship's computer system, HAL, begins to display increasingly strange behavior, leading up to a tense showdown between man and machine that results in a mind-bending trek through space and time.",
+    "shortDescription": "Supercomputer HAL 9000 guides astronauts on a trip to find the origins of humans.",
+    "topCast": [
+      "Keir Dullea",
+      "Gary Lockwood",
+      "William Sylvester"
+    ],
+    "directors": [
+      "Stanley Kubrick"
+    ],
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "4"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "G"
+      }
+    ],
+    "runTime": "PT02H19M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p6252_v_v5_ab.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "4104",
+          "name": "Castro Theatre"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "4104",
+          "name": "Castro Theatre"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010925550000",
+    "rootId": "15236172",
+    "subType": "Feature Film",
+    "title": "Dark Crimes",
+    "releaseYear": 2016,
+    "releaseDate": "2016-10-12",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Crime drama",
+      "Thriller"
+    ],
+    "longDescription": "A hard-boiled detective becomes suspicious of an author when the incidents described in his hit novel resemble the inner-workings of an unsolved murder.",
+    "shortDescription": "A detective who is working on a cold case turns to clues found in an author's hit novel.",
+    "topCast": [
+      "Jim Carrey",
+      "Charlotte Gainsbourg",
+      "Marton Csokas"
+    ],
+    "directors": [
+      "Alexandros Avranas"
+    ],
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Nudity",
+      "Rape",
+      "Strong Sexual Content",
+      "Violence"
+    ],
+    "runTime": "PT01H32M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p15236172_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "4048",
+          "name": "Roxie Theater"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "quals": "Digital",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBR&m=184407&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "4048",
+          "name": "Roxie Theater"
+        },
+        "dateTime": "2018-05-18T21:00",
+        "quals": "Digital",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBR&m=184407&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010428570000",
+    "rootId": "14619911",
+    "subType": "Feature Film",
+    "title": "The Desert Bride",
+    "releaseYear": 2017,
+    "releaseDate": "2017-05-25",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Drama"
+    ],
+    "longDescription": "A film by Cecilia Atán and Valeria Pivato.",
+    "shortDescription": "Teresa's life begins to fall apart when the family that employs her decides to sell their house.",
+    "topCast": [
+      "Paulina García",
+      "Claudio Rissi"
+    ],
+    "directors": [
+      "Cecilia Atán",
+      "Valeria Pivato"
+    ],
+    "officialUrl": "https://strandreleasing.com/films/desert-bride-the/",
+    "advisories": [
+      "Adult Situations"
+    ],
+    "runTime": "PT01H18M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14619911_i_v5_aa.jpg",
+      "category": "Iconic",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "4048",
+          "name": "Roxie Theater"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Digital",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBR&m=178660&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV008874430000",
+    "rootId": "12854824",
+    "subType": "Feature Film",
+    "title": "Deadpool 2",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-18",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "longDescription": "Wisecracking mercenary Deadpool meets Russell, an angry teenage mutant who lives at an orphanage. When Russell becomes the target of Cable -- a genetically enhanced soldier from the future -- Deadpool realizes that he'll need some help saving the boy from such a superior enemy. He soon joins forces with Bedlam, Shatterstar, Domino and other powerful mutants to protect young Russell from Cable and his advanced weaponry.",
+    "shortDescription": "Wisecracking mercenary Deadpool joins forces with a team of mutants to fight the all-powerful Cable.",
+    "topCast": [
+      "Ryan Reynolds",
+      "Josh Brolin",
+      "Zazie Beetz"
+    ],
+    "directors": [
+      "David Leitch"
+    ],
+    "officialUrl": "https://www.deadpool.com/",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Graphic Violence"
+    ],
+    "runTime": "PT02H00M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p12854824_v_v5_ab.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T10:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T22:30",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T12:30",
+        "quals": "No Passes|18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T15:45",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T22:15",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T11:55",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T13:15",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T14:30",
+        "quals": "Dolby Atmos",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T18:30",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T19:45",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T21:00",
+        "quals": "Dolby Atmos",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T23:00",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T12:35",
+        "quals": "Handicap Accessible|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T15:45",
+        "quals": "Handicap Accessible|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T18:50",
+        "quals": "Handicap Accessible|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Handicap Accessible|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T10:00",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T11:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T12:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T14:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T15:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "quals": "Lounger XD|Reserved Seating|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T21:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T23:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T10:15",
+        "quals": "Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T10:30",
+        "quals": "Recliners|Reserved Seating|No Passes|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T11:00",
+        "quals": "Dolby Cinema at AMC Prime|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T11:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T13:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T13:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T14:00",
+        "quals": "Dolby Cinema at AMC Prime|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T15:30",
+        "quals": "Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "quals": "Dolby Cinema at AMC Prime|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T17:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T18:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "quals": "Recliners|Reserved Seating|No Passes|Dolby Cinema at AMC Prime",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T20:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T21:00",
+        "quals": "No Passes|Reserved Seating|Recliners|Descriptive Video Services|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T22:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T23:00",
+        "quals": "Reserved Seating|No Passes|Dolby Cinema at AMC Prime|Recliners",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T23:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T13:15",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T15:45",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T18:10",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T20:40",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9612",
+          "name": "Marina Theatre"
+        },
+        "dateTime": "2018-05-18T14:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9612",
+          "name": "Marina Theatre"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9612",
+          "name": "Marina Theatre"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9612",
+          "name": "Marina Theatre"
+        },
+        "dateTime": "2018-05-18T21:30",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T00:01",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T09:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T09:40",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T10:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T11:20",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T11:50",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T12:20",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T13:10",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T14:00",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T14:40",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:10",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:40",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T17:20",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T18:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:50",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T20:40",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T21:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:20",
+        "quals": "Reserved Seating|Lounger XD|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:50",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T23:20",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T23:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T23:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162362&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010376380000",
+    "rootId": "14551155",
+    "subType": "Feature Film",
+    "title": "Isle of Dogs",
+    "releaseYear": 2018,
+    "releaseDate": "2018-02-15",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Animated",
+      "Comedy",
+      "Adventure"
+    ],
+    "longDescription": "When, by executive decree, all the canine pets of Megasaki City are exiled to a vast garbage-dump called Trash Island, 12-year-old Atari sets off alone in a miniature Junior-Turbo Prop and flies across the river in search of his bodyguard-dog, Spots. There, with the assistance of a pack of newly-found mongrel friends, he begins an epic journey that will decide the fate and future of the entire Prefecture.",
+    "shortDescription": "Banished dogs try to help a 12-year-old boy find his beloved pet on an island that's a garbage dump.",
+    "topCast": [
+      "Bryan Cranston",
+      "Edward Norton",
+      "Scarlett Johansson"
+    ],
+    "directors": [
+      "Wes Anderson"
+    ],
+    "officialUrl": "http://www.isleofdogsmovie.com/",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3.5"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Situations"
+    ],
+    "runTime": "PT01H41M",
+    "animation": "Animated",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14551155_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T10:10",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=178324&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T15:20",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=178324&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=178324&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=178324&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T15:55",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=178324&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=178324&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T21:55",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=178324&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV008885450000",
+    "rootId": "12863030",
+    "subType": "Feature Film",
+    "title": "Avengers: Infinity War",
+    "releaseYear": 2018,
+    "releaseDate": "2018-04-27",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Science fiction"
+    ],
+    "longDescription": "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.",
+    "shortDescription": "Iron Man, Thor and the rest of the Avengers battle their most powerful enemy yet -- the evil Thanos.",
+    "topCast": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Josh Brolin"
+    ],
+    "directors": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "officialUrl": "https://marvel.com/avengers",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT02H29M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p12863030_v_v5_ab.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T11:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T14:30",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T22:45",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T11:15",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T14:45",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T18:15",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T21:45",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T11:55",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T13:30",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T14:45",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:15",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T21:45",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:30",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T11:35",
+        "quals": "Closed Captioned|Not Handicapped Accessible",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T15:00",
+        "quals": "Closed Captioned|Not Handicapped Accessible",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T18:30",
+        "quals": "Closed Captioned|Not Handicapped Accessible",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6645",
+          "name": "CinéArts Empire"
+        },
+        "dateTime": "2018-05-18T21:50",
+        "quals": "Closed Captioned|Not Handicapped Accessible",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AACGA&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T10:10",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T11:40",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T13:35",
+        "quals": "Closed Captioned|Lounger|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T14:20",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T17:15",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T19:15",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T20:45",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T21:50",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T10:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T10:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T11:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T12:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "quals": "Recliners|Reserved Seating|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T20:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T21:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T23:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "9612",
+          "name": "Marina Theatre"
+        },
+        "dateTime": "2018-05-18T14:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9612",
+          "name": "Marina Theatre"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9612",
+          "name": "Marina Theatre"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "4058",
+          "name": "Historic Balboa Theatre"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "4058",
+          "name": "Historic Balboa Theatre"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "4058",
+          "name": "Historic Balboa Theatre"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T09:20",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T10:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T10:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T11:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T13:30",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T14:10",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T14:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:30",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T17:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T18:20",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T21:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:20",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T23:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162537&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "EV000008873833",
+    "rootId": "15524773",
+    "subType": "Theatre Event",
+    "title": "Eight Hours Don't Make a Day Parts 1 + 2",
+    "titleLang": "en",
+    "entityType": "Movie",
+    "preferredImage": {
+      "uri": "tvbanners/generic/generic_tvbanners_v5.png"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T11:15",
+        "quals": "A.M.",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=186175&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010867490000",
+    "rootId": "15167081",
+    "subType": "Feature Film",
+    "title": "RBG",
+    "releaseYear": 2018,
+    "releaseDate": "2018-01-21",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Documentary"
+    ],
+    "longDescription": "An intimate portrait of an unlikely rock star: Justice Ruth Bader Ginsburg. With unprecedented access, the filmmakers explore how her early legal battles changed the world for women.",
+    "shortDescription": "Filmmakers explore how Ruth Bader Ginsburg's her early legal battles changed the world for women.",
+    "topCast": [
+      "Ruth Bader Ginsburg",
+      "Gloria Steinem",
+      "Nina Totenberg"
+    ],
+    "directors": [
+      "Betsy West",
+      "Julie Cohen"
+    ],
+    "officialUrl": "https://www.rbgmovie.com/",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations"
+    ],
+    "runTime": "PT01H37M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "RBG (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p15167081_p_v5_ab.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T11:40",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T14:20",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T19:40",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T22:20",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T12:50",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T15:40",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T18:30",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T21:20",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "quals": "Closed Captioned",
+        "barg": true,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "Closed Captioned",
+        "barg": true,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T21:50",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T12:00",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T12:05",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T14:20",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T14:30",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T16:40",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T19:10",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T19:20",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T21:40",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T10:10",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T13:10",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T16:10",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:20",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183791&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:20",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183791&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010464450000",
+    "rootId": "14660087",
+    "subType": "Feature Film",
+    "title": "A Quiet Place",
+    "releaseYear": 2018,
+    "releaseDate": "2018-03-09",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "longDescription": "In upstate New York, a couple and their two children must remain silent in their isolated farmhouse to avoid mysterious creatures that use sound to hunt their prey. Using sign language and eye contact to communicate, the family members must rely on one another -- and their wits -- to live to see the next day.",
+    "shortDescription": "A family must remain silent in its farmhouse to avoid mysterious creatures that use sound to hunt.",
+    "topCast": [
+      "Emily Blunt",
+      "John Krasinski",
+      "Millicent Simmonds"
+    ],
+    "directors": [
+      "John Krasinski"
+    ],
+    "officialUrl": "http://www.paramount.com/movies/quiet-place",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3.5"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT01H30M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "A Quiet Place (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p14660087_p_v5_aa.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T12:50",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T21:30",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T11:40",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T14:10",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T19:10",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T21:45",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T11:55",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T15:30",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:15",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T12:15",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T14:40",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T17:10",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T19:40",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T22:10",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T10:05",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T13:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:20",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T18:50",
+        "quals": "Descriptive Video Services|Recliners|Reserved Seating|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T21:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T11:10",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T13:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T16:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179044&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179044&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "EV000008873830",
+    "rootId": "15524771",
+    "subType": "Theatre Event",
+    "title": "Eight Hours Don't Make a Day Parts 3 + 4",
+    "titleLang": "en",
+    "entityType": "Movie",
+    "preferredImage": {
+      "uri": "tvbanners/generic/generic_tvbanners_v5.png"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "11184",
+          "name": "Alamo Drafthouse New Mission"
+        },
+        "dateTime": "2018-05-18T15:40",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAXPV&m=186174&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010615420000",
+    "rootId": "14840724",
+    "subType": "Feature Film",
+    "title": "Let the Sunshine In",
+    "releaseYear": 2017,
+    "releaseDate": "2017-06-23",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Romantic comedy"
+    ],
+    "longDescription": "A film by Claire Denis, director of Beau travail and White Material.",
+    "shortDescription": "Isabelle, a Parisian artist and divorced mother, is looking for love.",
+    "topCast": [
+      "Juliette Binoche",
+      "Xavier Beauvois",
+      "Philippe Katerine"
+    ],
+    "directors": [
+      "Claire Denis"
+    ],
+    "officialUrl": "http://www.ifcfilms.com/films/let-the-sunshine-in",
+    "advisories": [
+      "Adult Situations",
+      "Nudity"
+    ],
+    "runTime": "PT01H35M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14840724_v_v5_ab.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T12:00",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T12:30",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T14:15",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T17:15",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T19:15",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T21:30",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010473220000",
+    "rootId": "14671211",
+    "subType": "Feature Film",
+    "title": "The Rider",
+    "releaseYear": 2017,
+    "releaseDate": "2017-05-20",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Western",
+      "Drama"
+    ],
+    "longDescription": "After a riding accident leaves him unable to compete on the rodeo circuit, a young cowboy searches for a new purpose.",
+    "shortDescription": "After suffering a near fatal head injury, a rodeo champion must give up the life he loves.",
+    "topCast": [
+      "Brady Jandreau",
+      "Tim Jandreau",
+      "Lilly Jandreau"
+    ],
+    "directors": [
+      "Chloé Zhao"
+    ],
+    "officialUrl": "http://sonyclassics.com/therider/",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3.5"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations"
+    ],
+    "runTime": "PT01H44M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "The Rider (2017)",
+        "lang": "en"
+      },
+      "uri": "assets/p14671211_p_v5_aa.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T12:05",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T14:25",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T16:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T19:05",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T21:20",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010451070000",
+    "rootId": "14641703",
+    "subType": "Feature Film",
+    "title": "Boom for Real: The Late Teenage Years of Jean-Michel Basquiat",
+    "releaseYear": 2017,
+    "releaseDate": "2017-09-08",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Documentary"
+    ],
+    "longDescription": "Never-before-seen works, writings and photographs offer insight into the life of Jean-Michel Basquiat as a teenager in New York in the late 1970s. The times, the people and the movements of the city help Basquiat form his artistic vision.",
+    "shortDescription": "Never-before-seen works, writings and photographs offer insight into artist Jean-Michel Basquiat.",
+    "topCast": [
+      "Jim Jarmusch",
+      "James Nares",
+      "Fab Five Freddy"
+    ],
+    "directors": [
+      "Sara Driver"
+    ],
+    "officialUrl": "http://www.boomforrealfilm.com/",
+    "advisories": [
+      "Adult Language",
+      "Adult Situations"
+    ],
+    "runTime": "PT01H18M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "Boom for Real: The Late Teenage Years of Jean-Michel Basquiat (2017)",
+        "lang": "en"
+      },
+      "uri": "assets/p14641703_p_v5_aa.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T12:15",
+        "quals": "Closed Captioned|Handicap Accessible|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T14:35",
+        "quals": "Closed Captioned|Handicap Accessible|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "quals": "Closed Captioned|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T19:25",
+        "quals": "Closed Captioned|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T21:25",
+        "quals": "Closed Captioned|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV009743440000",
+    "rootId": "13733664",
+    "subType": "Feature Film",
+    "title": "1945",
+    "releaseYear": 2017,
+    "releaseDate": "2017-11-01",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Drama"
+    ],
+    "shortDescription": "A village is forced to face up to its ill-gotten gains from World War II.",
+    "longDescription": "A village is forced to face up to its ill-gotten gains from World War II.",
+    "topCast": [
+      "Peter Rudolf",
+      "Bence Tasnádi",
+      "Tamás Szabó Kimmel"
+    ],
+    "directors": [
+      "Ferenc Török"
+    ],
+    "runTime": "PT01H31M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p13733664_v_v5_ax.jpg",
+      "category": "VOD Art",
+      "text": "yes"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T14:45",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T19:35",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7499",
+          "name": "Opera Plaza Cinema"
+        },
+        "dateTime": "2018-05-18T21:35",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010876170000",
+    "rootId": "15175973",
+    "subType": "Feature Film",
+    "title": "Pope Francis -- A Man of His Word",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-13",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Documentary"
+    ],
+    "longDescription": "Pope Francis embarks on a personal journey to present his work of reform and answer today's global questions -- from his deep concern for the poor and wealth inequality to his involvement in environmental issues, social justice and calls for peace.",
+    "shortDescription": "Pope Francis discusses poverty, wealth inequality, environmental issues, social justice and peace.",
+    "topCast": [
+      "Pope Francis"
+    ],
+    "directors": [
+      "Wim Wenders"
+    ],
+    "officialUrl": "http://focusfeatures.com/pope-francis-a-man-of-his-word/",
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG"
+      }
+    ],
+    "advisories": [
+      "Adult Situations"
+    ],
+    "runTime": "PT01H36M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "Pope Francis -- A Man of His Word (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p15175973_p_v5_ab.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T11:30",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T14:00",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T16:40",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T19:20",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T13:30",
+        "quals": "Descriptive Video Services|Advance Tickets Available|Closed Captioned",
+        "barg": true,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T16:15",
+        "quals": "Descriptive Video Services|Advance Tickets Available|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "quals": "Descriptive Video Services|Advance Tickets Available|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7749",
+          "name": "UA Stonestown Twin"
+        },
+        "dateTime": "2018-05-18T21:50",
+        "quals": "Descriptive Video Services|Advance Tickets Available|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAFBN&m=183313&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T12:10",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T14:25",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T16:40",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T19:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T21:50",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010849620000",
+    "rootId": "15142793",
+    "subType": "Feature Film",
+    "title": "Book Club",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-18",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Romantic comedy"
+    ],
+    "longDescription": "Diane is recently widowed after 40 years of marriage. Vivian enjoys her men with no strings attached. Sharon is still working through her decades-old divorce. Carol's marriage is in a slump after 35 years. The lives of these four friends are turned upside down after reading the infamous \"50 Shades of Grey.\" From discovering new romance to rekindling old flames, they inspire each other to make their next chapter their best chapter yet.",
+    "shortDescription": "Four friends' lives are turned upside down after reading \"50 Shades of Grey\" in their book club.",
+    "topCast": [
+      "Diane Keaton",
+      "Jane Fonda",
+      "Candice Bergen"
+    ],
+    "directors": [
+      "Bill Holderman"
+    ],
+    "officialUrl": "http://www.paramount.com/television/book-club",
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations"
+    ],
+    "runTime": "PT01H44M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p15142793_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T12:00",
+        "quals": "No Passes|Reserved Seating|Descriptive Video Services|Closed Captioned|18 & Over unless with Guardian",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T15:00",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T21:00",
+        "quals": "18 & Over unless with Guardian|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T11:55",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T13:20",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:35",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T19:55",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:50",
+        "quals": "Closed Captioned|Descriptive Video Services|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T10:45",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T13:45",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T16:45",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "quals": "Lounger|Reserved Seating|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T22:15",
+        "quals": "Reserved Seating|Lounger|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T11:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T14:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T19:35",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T22:20",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T13:10",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T15:40",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T20:30",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T10:00",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T12:50",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:50",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:10",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183118&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:15",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=183118&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010561760000",
+    "rootId": "14781041",
+    "subType": "Feature Film",
+    "title": "Disobedience",
+    "releaseYear": 2017,
+    "releaseDate": "2017-09-10",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "longDescription": "New York photographer Ronit Krushka flies to London after learning about the death of her estranged father. Ronit is returning to the same Orthodox Jewish community that shunned her decades earlier for her childhood attraction to Esti, a female friend. Their fortuitous and happy reunion soon reignites their burning passion as the two women explore boundaries of faith and sexuality.",
+    "shortDescription": "A New York photographer rekindles a lesbian romance with her childhood best friend in London.",
+    "topCast": [
+      "Rachel Weisz",
+      "Rachel McAdams",
+      "Alessandro Nivola"
+    ],
+    "directors": [
+      "Sebastián Lelio"
+    ],
+    "officialUrl": "https://bleeckerstreetmedia.com/disobedience",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Nudity",
+      "Strong Sexual Content"
+    ],
+    "runTime": "PT01H54M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14781041_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T12:10",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180336&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T15:10",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180336&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T18:20",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180336&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T21:30",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Closed Captioned|Descriptive Video Services|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180336&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T12:05",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T12:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T14:35",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T14:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T17:05",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T17:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T21:35",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010616330000",
+    "rootId": "14841776",
+    "subType": "Feature Film",
+    "title": "Beast",
+    "releaseYear": 2017,
+    "releaseDate": "2017-09-09",
+    "titleLang": "en-GB",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Romance"
+    ],
+    "longDescription": "In a small island community, a troubled young woman falls for a mysterious outsider who empowers her to escape her oppressive family. When he comes under suspicion for a series of murders, she defends him at all costs.",
+    "shortDescription": "In a small island community, a troubled young woman falls for a mysterious outsider.",
+    "topCast": [
+      "Jessie Buckley",
+      "Geraldine James",
+      "Johnny Flynn"
+    ],
+    "directors": [
+      "Michael Pearce"
+    ],
+    "officialUrl": "https://www.beastthefilm.com/",
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT01H47M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14841776_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T13:30",
+        "quals": "No Passes|Reserved Seating|Descriptive Video Services|Closed Captioned|AMC Independent|18 & Over unless with Guardian",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180960&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T16:20",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180960&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T19:15",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180960&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7628",
+          "name": "AMC Kabuki 8"
+        },
+        "dateTime": "2018-05-18T22:05",
+        "quals": "18 & Over unless with Guardian|AMC Independent|Closed Captioned|Descriptive Video Services|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AADAS&m=180960&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T12:00",
+        "quals": "Hearing Impaired|Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T14:30",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T16:50",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T19:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T21:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Reserved Seating|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV011151670000",
+    "rootId": "15494555",
+    "subType": "Feature Film",
+    "title": "Champion",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-11",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Comedy drama"
+    ],
+    "longDescription": "A former arm-wrestling champion raised in the U.S. returns to South Korea for a tournament that could return him to glory, but he finds his life complicated by the appearance of the biological family he never knew.",
+    "shortDescription": "A former arm-wrestling champion returns to South Korea for a tournament.",
+    "topCast": [
+      "Ma Dong-seok",
+      "Kwon Yul",
+      "Han Ye-ri"
+    ],
+    "directors": [
+      "Kim Yong-wan"
+    ],
+    "officialUrl": "http://www.wellgousa.com/theatrical/champion",
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT01H48M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "Champion (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p15494555_p_v5_aa.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T11:55",
+        "quals": "AMC Independent",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=186027&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T17:15",
+        "quals": "AMC Independent",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=186027&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "quals": "AMC Independent",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=186027&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:45",
+        "quals": "AMC Independent",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=186027&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV011130490000",
+    "rootId": "15470542",
+    "subType": "Feature Film",
+    "title": "Raazi",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-10",
+    "titleLang": "hi",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Action",
+      "Crime drama"
+    ],
+    "shortDescription": "An Indian spy marries a Pakistani man during the Indo-Pakistan War of 1971.",
+    "longDescription": "An Indian spy marries a Pakistani man during the Indo-Pakistan War of 1971.",
+    "topCast": [
+      "Alia Bhatt",
+      "Vicky Kaushal",
+      "Jaideep Ahlawat"
+    ],
+    "directors": [
+      "Meghna Gulzar"
+    ],
+    "runTime": "PT02H18M",
+    "preferredImage": {
+      "uri": "tvbanners/generic/generic_tvbanners_v5.png"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T11:55",
+        "quals": "AMC Independent",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=185846&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T18:30",
+        "quals": "AMC Independent",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=185846&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:20",
+        "quals": "AMC Independent",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=185846&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010469820000",
+    "rootId": "14664837",
+    "subType": "Feature Film",
+    "title": "Show Dogs",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-18",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Children"
+    ],
+    "audience": "Children",
+    "longDescription": "After a failed attempt to recover a stolen baby panda, police dog Max reluctantly teams up with a human FBI agent named Frank. A hot tip leads Max and Frank to Las Vegas for the world's most exclusive dog show. To find the panda, Max goes under cover as a contestant to get the lowdown from his fellow canines. With help from their new friends, the crime-fighting duo must now foil another kidnapping plot and rescue other valuable animals from a gang of greedy smugglers.",
+    "shortDescription": "A canine cop and an FBI agent work under cover at the world's most exclusive dog show in Las Vegas.",
+    "topCast": [
+      "Will Arnett",
+      "Natasha Lyonne",
+      "RuPaul"
+    ],
+    "directors": [
+      "Raja Gosnell"
+    ],
+    "officialUrl": "http://showdogs-movie.com/",
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations"
+    ],
+    "runTime": "PT01H32M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14664837_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T11:55",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T14:30",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:55",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T10:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T12:40",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T15:20",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T22:10",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T09:00",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T12:00",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:20",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T18:20",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182159&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T21:10",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182159&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV011004300000",
+    "rootId": "12854824",
+    "subType": "Feature Film",
+    "title": "Deadpool 2: The IMAX 2D Experience",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-18",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "longDescription": "Wisecracking mercenary Deadpool meets Russell, an angry teenage mutant who lives at an orphanage. When Russell becomes the target of Cable -- a genetically enhanced soldier from the future -- Deadpool realizes that he'll need some help saving the boy from such a superior enemy. He soon joins forces with Bedlam, Shatterstar, Domino and other powerful mutants to protect young Russell from Cable and his advanced weaponry.",
+    "shortDescription": "Wisecracking mercenary Deadpool joins forces with a team of mutants to fight the all-powerful Cable.",
+    "topCast": [
+      "Ryan Reynolds",
+      "Josh Brolin",
+      "Zazie Beetz"
+    ],
+    "directors": [
+      "David Leitch"
+    ],
+    "officialUrl": "https://www.deadpool.com/",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Graphic Violence"
+    ],
+    "runTime": "PT02H00M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "Deadpool 2: The IMAX 2D Experience (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p12854824_p_v5_ab.jpg",
+      "category": "Poster Art",
+      "text": "yes"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T12:45",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T19:15",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:30",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T10:00",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "quals": "No Passes|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=184487&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=184487&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010512960000",
+    "rootId": "14721978",
+    "subType": "Feature Film",
+    "title": "Overboard",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-04",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Romantic comedy"
+    ],
+    "longDescription": "Kate is a single, working-class mother of three who's hired to clean a luxury yacht that belongs to Leonardo -- a selfish, spoiled and wealthy Mexican playboy. After unjustly firing Kate, Leonardo falls off the boat and wakes up with no memory of who he is. To get payback, Kate shows up at the hospital and convinces the confused amnesiac that they're married. As Leonardo tries to get used to manual labor and his new family, Kate starts to wonder how long she can keep fooling her fake husband.",
+    "shortDescription": "A single, working-class mother of three convinces a wealthy amnesiac that they're married.",
+    "topCast": [
+      "Eugenio Derbez",
+      "Anna Faris",
+      "Eva Longoria"
+    ],
+    "directors": [
+      "Rob Greenberg"
+    ],
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "2"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Nudity"
+    ],
+    "runTime": "PT01H52M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14721978_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T13:00",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "AMC Independent|Spanish Version",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T12:45",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T15:40",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T18:45",
+        "quals": "Recliners|Reserved Seating|No Passes|AMC Independent|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T21:40",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T10:20",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T13:20",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T16:20",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179679&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T23:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=179679&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010279620000",
+    "rootId": "14427239",
+    "subType": "Feature Film",
+    "title": "Life of the Party",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-11",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Comedy"
+    ],
+    "longDescription": "When her husband suddenly dumps her, longtime and dedicated housewife Deanna turns regret into reset by going back to college. Unfortunately, Deanna winds up at the same school as her less-than-thrilled daughter. Plunging headlong into the campus experience, the outspoken new student soon finds her true self while fully embracing all the fun, freedom and frat boys that she can handle.",
+    "shortDescription": "A woman finds fun, freedom and frat boys while attending the same college as her daughter.",
+    "topCast": [
+      "Melissa McCarthy",
+      "Gillian Jacobs",
+      "Maya Rudolph"
+    ],
+    "directors": [
+      "Ben Falcone"
+    ],
+    "officialUrl": "http://www.lifeoftheparty-movie.com/",
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Situations"
+    ],
+    "runTime": "PT01H45M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14427239_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T13:10",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:00",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T11:10",
+        "quals": "Closed Captioned|Lounger|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T13:55",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T16:50",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T19:50",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T22:50",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T13:15",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T15:40",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T20:30",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T09:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T12:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:45",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T19:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T21:20",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=180683&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:30",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=180683&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010776470000",
+    "rootId": "15051839",
+    "subType": "Feature Film",
+    "title": "Breaking In",
+    "releaseYear": 2018,
+    "releaseDate": "2018-05-11",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Thriller"
+    ],
+    "longDescription": "A woman takes her two children on a weekend getaway to her late father's secluded, high-tech estate in the countryside. She soon finds herself in a desperate fight to save all of their lives when four men break into the house to find hidden money.",
+    "shortDescription": "A strong-willed woman battles four home intruders to save herself and her two children.",
+    "topCast": [
+      "Gabrielle Union",
+      "Billy Burke",
+      "Richard Cabral"
+    ],
+    "directors": [
+      "James McTeigue"
+    ],
+    "officialUrl": "https://www.breakinginmovie.com/",
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT01H28M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p15051839_v_v5_ab.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T13:15",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T20:00",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T22:50",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T11:50",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T14:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:50",
+        "quals": "No Passes|Reserved Seating|Recliners|Descriptive Video Services|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T19:25",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T21:50",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating|No Passes",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T09:30",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T10:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T12:10",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T13:30",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T15:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T16:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T17:30",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T18:40",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T20:10",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T21:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T22:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=182165&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010043240000",
+    "rootId": "14123058",
+    "subType": "Feature Film",
+    "title": "Tully",
+    "releaseYear": 2018,
+    "releaseDate": "2018-01-23",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Comedy drama"
+    ],
+    "longDescription": "Marlo is a New York suburbanite who's about to give birth to her third child. Her husband, Ron, is loving and works hard, but remains clueless about the demands that motherhood puts on his wife. When the baby is born, Marlo's wealthy brother hires a nighttime nanny named Tully to help his sister handle the workload. Hesitant at first, Marlo soon learns to appreciate all that Tully does -- forming a special bond with her new, lifesaving friend.",
+    "shortDescription": "A mother of three forms a special bond with her thoughtful and sometimes challenging nanny.",
+    "topCast": [
+      "Charlize Theron",
+      "Mackenzie Davis",
+      "Mark Duplass"
+    ],
+    "directors": [
+      "Jason Reitman"
+    ],
+    "officialUrl": "http://focusfeatures.com/tully/",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Nudity"
+    ],
+    "runTime": "PT01H34M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14123058_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T14:40",
+        "quals": "AMC Independent|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=178594&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T11:30",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=178594&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T18:50",
+        "quals": "Reserved Seating|Closed Captioned|Lounger",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=178594&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T18:15",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T09:50",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=178594&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T17:15",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=178594&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010735050000",
+    "rootId": "14992717",
+    "subType": "Feature Film",
+    "title": "I Feel Pretty",
+    "releaseYear": 2018,
+    "releaseDate": "2018-04-20",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Comedy"
+    ],
+    "longDescription": "An ordinary woman who struggles with feelings of insecurity and inadequacy on a daily basis wakes from a fall believing she is suddenly the most beautiful and capable woman on the planet. With this newfound confidence, she is empowered to live her life fearlessly and flawlessly, but what will happen when she realizes her appearance never changed?",
+    "shortDescription": "A woman who struggles with feelings of insecurity gains a renewed sense of self-confidence.",
+    "topCast": [
+      "Amy Schumer",
+      "Michelle Williams",
+      "Rory Scovel"
+    ],
+    "directors": [
+      "Abby Kohn",
+      "Marc Silverstein"
+    ],
+    "officialUrl": "http://stxfilms.com/ifeelpretty/#about",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "2"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Nudity"
+    ],
+    "runTime": "PT01H50M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "I Feel Pretty (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p14992717_p_v5_aa.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T15:30",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=181750&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T13:20",
+        "quals": "Recliners|Reserved Seating|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=181750&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T19:20",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=181750&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T13:10",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T15:40",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "6254",
+          "name": "Presidio Theatre"
+        },
+        "dateTime": "2018-05-18T20:30",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV008813890000",
+    "rootId": "12806300",
+    "subType": "Feature Film",
+    "title": "Ready Player One",
+    "releaseYear": 2018,
+    "releaseDate": "2018-03-11",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Science fiction",
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "longDescription": "In 2045, the planet is on the brink of chaos and collapse, but people find salvation in the OASIS, an expansive virtual reality universe created by James Halliday. When Halliday dies, he promises his immense fortune to the first person to discover a digital Easter egg that's hidden somewhere in the OASIS. When young Wade Watts joins the contest, he finds himself becoming an unlikely hero in a reality-bending treasure hunt through a fantastical world of mystery, discovery and danger.",
+    "shortDescription": "A teen searches for a hidden treasure in an expansive virtual reality universe in 2045.",
+    "topCast": [
+      "Tye Sheridan",
+      "Olivia Cooke",
+      "Ben Mendelsohn"
+    ],
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "officialUrl": "http://readyplayeronemovie.com/",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Nudity",
+      "Violence"
+    ],
+    "runTime": "PT02H20M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p12806300_v_v5_ac.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7967",
+          "name": "AMC Van Ness 14"
+        },
+        "dateTime": "2018-05-18T18:20",
+        "quals": "Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGBK&m=161783&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T16:05",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=161783&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010611590000",
+    "rootId": "14835008",
+    "subType": "Feature Film",
+    "title": "The Guardians",
+    "releaseYear": 2017,
+    "releaseDate": "2017-09-08",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Historical drama"
+    ],
+    "longDescription": "France 1915. Men on the battlefield. Women on the homefront.",
+    "shortDescription": "Frenchwomen maintain a farm while their husbands and sons fight in World War I.",
+    "topCast": [
+      "Nathalie Baye",
+      "Laura Smet",
+      "Iris Bry"
+    ],
+    "directors": [
+      "Xavier Beauvois"
+    ],
+    "officialUrl": "https://www.musicboxfilms.com/the-guardians-movies-165.php",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT02H15M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "The Guardians (2017)",
+        "lang": "en"
+      },
+      "uri": "assets/p14835008_p_v5_ab.jpg",
+      "category": "Poster Art",
+      "text": "yes"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "9460",
+          "name": "Vogue Theatre"
+        },
+        "dateTime": "2018-05-18T13:30",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9460",
+          "name": "Vogue Theatre"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "9460",
+          "name": "Vogue Theatre"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010910360000",
+    "rootId": "15214680",
+    "subType": "Feature Film",
+    "title": "The Seagull",
+    "releaseYear": 2018,
+    "releaseDate": "2018-04-21",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Drama"
+    ],
+    "longDescription": "At a picturesque lakeside estate, a love triangle unfolds between the diva Irina, her lover Boris, and the ingenue Nina.",
+    "shortDescription": "A love triangle unfolds between the diva Irina, her lover Boris, and the ingenue Nina.",
+    "topCast": [
+      "Saoirse Ronan",
+      "Annette Bening",
+      "Corey Stoll"
+    ],
+    "directors": [
+      "Michael Mayer"
+    ],
+    "officialUrl": "http://sonyclassics.com/theseagull/#",
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Situations",
+      "Nudity",
+      "Violence"
+    ],
+    "runTime": "PT01H38M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "The Seagull (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p15214680_p_v5_aa.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7963",
+          "name": "Clay Theatre"
+        },
+        "dateTime": "2018-05-18T14:15",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "7963",
+          "name": "Clay Theatre"
+        },
+        "dateTime": "2018-05-18T16:35",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7963",
+          "name": "Clay Theatre"
+        },
+        "dateTime": "2018-05-18T19:00",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "7963",
+          "name": "Clay Theatre"
+        },
+        "dateTime": "2018-05-18T21:20",
+        "quals": "Closed Captioned|Descriptive Video Services|Handicap Accessible|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV001321960000",
+    "rootId": "31478",
+    "subType": "Feature Film",
+    "title": "Cowboy Bebop: The Movie",
+    "releaseYear": 2001,
+    "releaseDate": "2001",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Science fiction",
+      "Fantasy",
+      "Action",
+      "Anime"
+    ],
+    "longDescription": "In this acclaimed Japanese animation, Jet Black, Faye Valentine and the others aboard an interstellar craft called the Bebop have their eyes on a lucrative reward. However, if they expect to collect it, they will have to haul in the man responsible for unleashing poison on Mars. Although it seems that their biggest challenge involves catching up with the infamous Vincent Volaju, here in the 2070s the skies are even more troublesome than members of the Bebop team realize.",
+    "shortDescription": "Bounty hunters (Steven Blum, Beau Billingslea) search for a bomber.",
+    "topCast": [
+      "Steven Blum",
+      "Beau Billingslea",
+      "Wendee Lee"
+    ],
+    "directors": [
+      "Shinichirô Watanabe",
+      "Yoshiyuki Takei"
+    ],
+    "officialUrl": "http://www.sonypictures.com/movies/cowboybebopthemovie/index.html",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Violence"
+    ],
+    "runTime": "PT01H54M",
+    "animation": "Anime",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p31478_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7963",
+          "name": "Clay Theatre"
+        },
+        "dateTime": "2018-05-18T23:55",
+        "quals": "Handicap Accessible|Subtitled|Hearing Impaired",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV008885460000",
+    "rootId": "12863030",
+    "subType": "Feature Film",
+    "title": "Avengers: Infinity War 3D",
+    "releaseYear": 2018,
+    "releaseDate": "2018-04-27",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Science fiction"
+    ],
+    "longDescription": "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.",
+    "shortDescription": "Iron Man, Thor and the rest of the Avengers battle their most powerful enemy yet -- the evil Thanos.",
+    "topCast": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Josh Brolin"
+    ],
+    "directors": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "officialUrl": "https://marvel.com/avengers",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT02H29M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": {
+        "content": "Avengers: Infinity War 3D (2018)",
+        "lang": "en"
+      },
+      "uri": "assets/p12863030_p_v5_ab.jpg",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T15:25",
+        "quals": "Reserved Seating|Closed Captioned|Luxury Lounger RealD 3D",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162538&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5801",
+          "name": "Century San Francisco Centre 9 and XD"
+        },
+        "dateTime": "2018-05-18T22:40",
+        "quals": "Reserved Seating|Closed Captioned|Luxury Lounger RealD 3D",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAUDV&m=162538&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T12:00",
+        "quals": "Closed Captioned|Descriptive Video Services|RealD 3D|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162538&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T15:30",
+        "quals": "Closed Captioned|Descriptive Video Services|RealD 3D|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162538&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T18:00",
+        "quals": "Closed Captioned|Descriptive Video Services|RealD 3D|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162538&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T22:30",
+        "quals": "Closed Captioned|Descriptive Video Services|RealD 3D|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162538&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T20:20",
+        "quals": "Closed Captioned|RealD 3D",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162538&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV008898760000",
+    "rootId": "12878741",
+    "subType": "Feature Film",
+    "title": "Black Panther",
+    "releaseYear": 2018,
+    "releaseDate": "2018-02-16",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "longDescription": "After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, T'Challa's mettle as king -- and as Black Panther -- gets tested when he's drawn into a conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people.",
+    "shortDescription": "Black Panther must save his nation and the rest of the world from a powerful old enemy.",
+    "topCast": [
+      "Chadwick Boseman",
+      "Michael B. Jordan",
+      "Lupita Nyong'o"
+    ],
+    "directors": [
+      "Ryan Coogler"
+    ],
+    "officialUrl": "http://movies.disney.com/black-panther",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3.5"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT02H14M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p12878741_v_v5_ac.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T11:35",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162611&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T14:45",
+        "quals": "Closed Captioned|Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162611&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T21:30",
+        "quals": "Recliners|Reserved Seating|No Passes|Closed Captioned|Descriptive Video Services",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=162611&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T11:00",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162611&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T14:30",
+        "quals": "Digital Cinema|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=162611&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV009507390000",
+    "rootId": "13499890",
+    "subType": "Feature Film",
+    "title": "Rampage",
+    "releaseYear": 2018,
+    "releaseDate": "2018-04-13",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science fiction"
+    ],
+    "longDescription": "Primatologist Davis Okoye shares an unshakable bond with George, an extraordinarily intelligent, silverback gorilla that's been in his care since birth. When a rogue genetic experiment goes wrong, it causes George, a wolf and a reptile to grow to a monstrous size. As the mutated beasts embark on a path of destruction, Okoye teams up with a discredited genetic engineer and the military to secure an antidote and prevent a global catastrophe.",
+    "shortDescription": "Three gigantic, mutated beasts embark on a path of destruction when a genetic experiment goes wrong.",
+    "topCast": [
+      "Dwayne Johnson",
+      "Naomie Harris",
+      "Malin Akerman"
+    ],
+    "directors": [
+      "Brad Peyton"
+    ],
+    "officialUrl": "http://www.rampagethemovie.com/home",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "2.5"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG-13"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT01H47M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p13499890_v_v5_aq.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "7641",
+          "name": "AMC Metreon 16"
+        },
+        "dateTime": "2018-05-18T14:30",
+        "quals": "Descriptive Video Services|Recliners|Reserved Seating",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AANEM&m=168977&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T11:40",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=168977&d=2018-05-18"
+      },
+      {
+        "theatre": {
+          "id": "5802",
+          "name": "Century 20 Daly City and XD"
+        },
+        "dateTime": "2018-05-18T18:10",
+        "quals": "Closed Captioned|Digital Cinema",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAQLT&m=168977&d=2018-05-18"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010745330000",
+    "rootId": "15006264",
+    "subType": "Feature Film",
+    "title": "Oh Lucy!",
+    "releaseYear": 2017,
+    "releaseDate": "2017-05-22",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Comedy drama"
+    ],
+    "longDescription": "From executive producers Will Ferrell & Adam McKay.",
+    "shortDescription": "A lonely woman in Tokyo discovers her alter ego when she takes an English class.",
+    "topCast": [
+      "Shinobu Terajima",
+      "Josh Hartnett",
+      "Kaho Minami"
+    ],
+    "directors": [
+      "Atsuko Hirayanagi"
+    ],
+    "officialUrl": "http://ohlucyfilm.com/",
+    "advisories": [
+      "Adult Situations"
+    ],
+    "runTime": "PT01H35M",
+    "preferredImage": {
+      "uri": "tvbanners/generic/generic_tvbanners_v5.png"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "6035",
+          "name": "4 Star Theatre"
+        },
+        "dateTime": "2018-05-18T18:10",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010901530000",
+    "rootId": "15204132",
+    "subType": "Feature Film",
+    "title": "The Happys",
+    "releaseYear": 2016,
+    "releaseDate": "2016-08-14",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Comedy"
+    ],
+    "longDescription": "Tracy thinks she has it all -- until she catches her boyfriend cheating on her with a man. As their relationship starts to deteriorate, she soon finds unexpected solace when she befriends a group of quirky residents in her Los Angeles neighborhood.",
+    "shortDescription": "A woman befriends her quirky neighbors after she catches her boyfriend cheating on her with a man.",
+    "topCast": [
+      "Amanda Bauer",
+      "Rhys Ward",
+      "Melissa McBride"
+    ],
+    "directors": [
+      "Tom Gould",
+      "John Serpe"
+    ],
+    "officialUrl": "http://www.indicanpictures.com/indicanpictures/happys-the/",
+    "advisories": [
+      "Adult Situations"
+    ],
+    "runTime": "PT01H27M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p15204132_v_v5_aa.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "6035",
+          "name": "4 Star Theatre"
+        },
+        "dateTime": "2018-05-18T18:10",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010408170000",
+    "rootId": "14589654",
+    "subType": "Feature Film",
+    "title": "The Death of Stalin",
+    "releaseYear": 2017,
+    "releaseDate": "2017-09-08",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Dark comedy"
+    ],
+    "longDescription": "When tyrannical dictator Joseph Stalin dies in 1953, his parasitic cronies square off in a frantic power struggle to become the next Soviet leader. Among the contenders are the dweebish Georgy Malenkov, the wily Nikita Khrushchev and Lavrenti Beria -- the sadistic secret police chief. As they bumble, brawl and back-stab their way to the top, the question remains -- just who is running the government?",
+    "shortDescription": "Russian cronies square off in a frantic struggle for power when dictator Joseph Stalin dies in 1953.",
+    "topCast": [
+      "Steve Buscemi",
+      "Andrea Riseborough",
+      "Simon Russell Beale"
+    ],
+    "directors": [
+      "Armando Iannucci"
+    ],
+    "officialUrl": "http://www.ifcfilms.com/films/the-death-of-stalin",
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "3.5"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT01H47M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p14589654_v_v5_ag.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "6035",
+          "name": "4 Star Theatre"
+        },
+        "dateTime": "2018-05-18T20:10",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T12:15",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": true
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T14:40",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T17:00",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T19:35",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      },
+      {
+        "theatre": {
+          "id": "8910",
+          "name": "Embarcadero Center Cinema"
+        },
+        "dateTime": "2018-05-18T21:30",
+        "quals": "Closed Captioned|Handicap Accessible|Reserved Seating|Screening Lounge|Hearing Impaired|Recliners",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV010147550000",
+    "rootId": "14273785",
+    "subType": "Feature Film",
+    "title": "Anything",
+    "releaseYear": 2017,
+    "releaseDate": "2017-06-17",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Drama"
+    ],
+    "longDescription": "Deeply depressed after his wife's death, a man moves from Mississippi to Los Angeles to live with this sister. While there, he forms a complicated and enriching relationship with a transgender sex worker.",
+    "shortDescription": "A depressed man forms a complicated and enriching relationship with a transgender sex worker.",
+    "topCast": [
+      "John Carroll Lynch",
+      "Matt Bomer",
+      "Maura Tierney"
+    ],
+    "directors": [
+      "Timothy McNeil"
+    ],
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations"
+    ],
+    "runTime": "PT01H34M",
+    "preferredImage": {
+      "uri": "tvbanners/generic/generic_tvbanners_v5.png"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "6035",
+          "name": "4 Star Theatre"
+        },
+        "dateTime": "2018-05-18T20:10",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV000171020000",
+    "rootId": "8118",
+    "subType": "Feature Film",
+    "title": "Rear Window",
+    "releaseYear": 1954,
+    "releaseDate": "1954-09-01",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Thriller"
+    ],
+    "longDescription": "A newspaper photographer with a broken leg passes time recuperating by observing his neighbors through his window. He sees what he believes to be a murder, and decides to solve the crime himself. With the help of his nurse and wife, he tries to catch the murderer without being killed himself.",
+    "shortDescription": "A photographer (James Stewart) in a wheelchair spies on neighbors and sees a murder.",
+    "topCast": [
+      "James Stewart",
+      "Grace Kelly",
+      "Wendell Corey"
+    ],
+    "directors": [
+      "Alfred Hitchcock"
+    ],
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "4"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "PG"
+      }
+    ],
+    "advisories": [
+      "Adult Situations"
+    ],
+    "runTime": "PT01H52M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p8118_v_v5_ad.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "4058",
+          "name": "Historic Balboa Theatre"
+        },
+        "dateTime": "2018-05-18T16:30",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV000004670000",
+    "rootId": "283",
+    "subType": "Feature Film",
+    "title": "Psycho",
+    "releaseYear": 1960,
+    "releaseDate": "1960-06-16",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "longDescription": "Phoenix secretary Marion Crane (Janet Leigh), on the lam after stealing $40,000 from her employer in order to run away with her boyfriend, Sam Loomis (John Gavin), is overcome by exhaustion during a heavy rainstorm. Traveling on the back roads to avoid the police, she stops for the night at the ramshackle Bates Motel and meets the polite but highly strung proprietor Norman Bates (Anthony Perkins), a young man with an interest in taxidermy and a difficult relationship with his mother.",
+    "shortDescription": "A woman (Janet Leigh) stops at a motel run by mad Norman Bates (Anthony Perkins).",
+    "topCast": [
+      "Anthony Perkins",
+      "Janet Leigh",
+      "Vera Miles"
+    ],
+    "directors": [
+      "Alfred Hitchcock"
+    ],
+    "qualityRating": {
+      "ratingsBody": "TMS",
+      "value": "4"
+    },
+    "ratings": [
+      {
+        "body": "Motion Picture Association of America",
+        "code": "R"
+      }
+    ],
+    "advisories": [
+      "Adult Situations",
+      "Violence"
+    ],
+    "runTime": "PT01H49M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p283_v_v5_ad.jpg",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "4058",
+          "name": "Historic Balboa Theatre"
+        },
+        "dateTime": "2018-05-18T19:30",
+        "barg": false
+      }
+    ]
+  }
+]

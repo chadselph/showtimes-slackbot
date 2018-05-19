@@ -3,21 +3,18 @@ package me.chadrs.moviepoll
 import java.time.format.DateTimeFormatter
 import java.time.{Instant, LocalDate, LocalTime, ZonedDateTime}
 
-import me.chadrs.data.StaticShowtimes
+import me.chadrs.data.Showtime
 import me.chadrs.slack.SlackAction
-import me.chadrs.slack.SlackMessageBuilder.SlackMessage
-import me.chadrs.slack.SlackMessageBuilder._
+import me.chadrs.slack.SlackMessageBuilder.{SlackMessage, _}
 
 object ShowtimesPoll {
 
-  def newPoll(): SlackMessage = {
-    val movies = StaticShowtimes
-      .getShowTimes()
+  def newPoll(showtimes: Seq[Showtime]): SlackMessage = {
+    val movies = showtimes
       .map(_.movieName)
       .distinct
       .map(option(_))
-    val theaters = StaticShowtimes
-      .getShowTimes()
+    val theaters = showtimes
       .map(_.theaterName)
       .distinct
       .map(option(_))
@@ -42,7 +39,7 @@ object ShowtimesPoll {
     ).copy(responseType = Some(ResponseType.InChannel))
   }
 
-  def update(input: SlackAction): SlackMessage = {
+  def update(showtimes: Seq[Showtime], input: SlackAction): SlackMessage = {
     input match {
       case sa @ SlackAction.SelectedOption("movie", movie) =>
         respondAndReplace(
@@ -71,7 +68,7 @@ object ShowtimesPoll {
         val form = readMultiselectForm(sa.originalMessage.attachments)
         val simpleHourFormat = DateTimeFormatter.ofPattern("ha")
         def parseHour(hour: String): LocalTime = LocalTime.parse(hour.toUpperCase, simpleHourFormat)
-        listShowtimes(form.getOrElse("movie", Nil), form.getOrElse("theater", Nil), LocalDate.parse(day), parseHour(form.get("time").flatMap(_.headOption).getOrElse("12am")))
+        listShowtimes(showtimes, form.getOrElse("movie", Nil), form.getOrElse("theater", Nil), LocalDate.parse(day), parseHour(form.get("time").flatMap(_.headOption).getOrElse("12am")))
 
       case sa @ SlackAction.SelectedOption(cmd, arg) =>
         response(s"$cmd($arg)")
@@ -82,11 +79,11 @@ object ShowtimesPoll {
     }
   }
 
-  def listShowtimes(movies: Seq[String], theaters: Seq[String], day: LocalDate, after: LocalTime): SlackMessage = {
+  def listShowtimes(allShowtimes: Seq[Showtime], movies: Seq[String], theaters: Seq[String], day: LocalDate, after: LocalTime): SlackMessage = {
     val timeFormater = DateTimeFormatter.ofPattern("h:mma")
     val localOffset = ZonedDateTime.now.getOffset
     val maxActionsPerAttachmentInSlack = 5
-    val showtimes = StaticShowtimes.getShowTimes().filter { showtime =>
+    val showtimes = allShowtimes.filter { showtime =>
       (movies.isEmpty || movies.contains(showtime.movieName)) &&
         (theaters.isEmpty || theaters.contains(showtime.theaterName)) &&
         showtime.start.isAfter(day.atTime(after).toInstant(localOffset) ) &&

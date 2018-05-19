@@ -1,22 +1,22 @@
 package me.chadrs.moviescan.clients
 
-import java.time.{LocalDate, LocalDateTime}
+import java.time.{Instant, LocalDate, LocalDateTime, ZoneOffset}
 
-import cats.data.OptionT
 import cats.effect.IO
-import io.circe.{Decoder, Json}
+import io.circe.{Decoder, Encoder}
 
 import scala.collection.immutable.Seq
-import me.chadrs.moviescan.clients.TmsApi.{MovieShowing, ZipCode}
+import me.chadrs.moviescan.clients.Tms.{MovieShowing, ZipCode}
 import org.http4s.{EntityDecoder, Uri}
 import org.http4s.client.Client
 import org.http4s.client.dsl.Http4sClientDsl
 import org.http4s.dsl.Http4sDsl
 import org.http4s.circe._
-import io.circe.generic.semiauto.deriveDecoder
+import io.circe.generic.semiauto.{deriveDecoder, deriveEncoder}
+import me.chadrs.data.{Showtime, ShowtimeDatabase}
 
 
-object TmsApi {
+object Tms {
   type ZipCode = String
   type OptionalList[T] = Option[Seq[T]]
 
@@ -46,14 +46,27 @@ object TmsApi {
     implicit val decoderTheater: Decoder[Theater] = deriveDecoder[Theater]
     implicit val decoder: Decoder[MovieShowing] = deriveDecoder[MovieShowing]
     implicit val movieShowingDecoder: EntityDecoder[IO, Seq[MovieShowing]] = jsonOf[IO, Seq[MovieShowing]]
+
+    implicit val encodeLdt: Encoder[LocalDateTime] = Encoder.encodeString.contramap(_.toString)
+    implicit val encoderShowtime: Encoder[Showtime] = deriveEncoder[Showtime]
+    implicit val encoderRating: Encoder[Rating] = deriveEncoder[Rating]
+    implicit val encoderImage: Encoder[Image] = deriveEncoder[Image]
+    implicit val encoderTheater: Encoder[Theater] = deriveEncoder[Theater]
+    implicit val encoder: Encoder[MovieShowing] = deriveEncoder[MovieShowing]
   }
 }
 
-class TmsApi(apiKey: String,
+trait TmsMovieSearch[F[_]] {
+  def showings(startDate: LocalDate, zip: ZipCode): F[Seq[MovieShowing]]
+}
+
+class TmsApiClient(apiKey: String,
              client: Client[IO],
-             baseUrl: Uri = Uri.uri("https://data.tmsapi.com/v1.1/"))
-    extends Http4sClientDsl[IO]
-    with Http4sDsl[IO] {
+             baseUrl: Uri = Uri.uri("https://data.tmsapi.com/v1.1/"),
+                  )
+  extends Http4sClientDsl[IO]
+    with Http4sDsl[IO]
+    with TmsMovieSearch[IO] {
 
   def showings(startDate: LocalDate, zip: ZipCode): IO[Seq[MovieShowing]] = {
     val showingsPath = (baseUrl / "movies" / "showings")
@@ -65,4 +78,22 @@ class TmsApi(apiKey: String,
     }
   }
 
+}
+
+class SFShowtimeDatabase(api: TmsMovieSearch[IO]) extends ShowtimeDatabase {
+
+  private val Zip = "94114"
+  private val Timezone = java.time.ZoneId.of("America/Los_Angeles")
+
+  override def getShowTimes(): IO[scala.Seq[Showtime]] = {
+    api.showings(LocalDate.now(), "94114")
+      .map { showings =>
+        showings.flatMap { movie =>
+          movie.showtimes.map { st =>
+            val zoneOffset = Timezone.getRules.getOffset(Instant.now())
+            Showtime(movie.title, st.dateTime.toInstant(zoneOffset), st.theatre.name, Set(), None, 0, None)
+          }
+        }
+      }
+  }
 }

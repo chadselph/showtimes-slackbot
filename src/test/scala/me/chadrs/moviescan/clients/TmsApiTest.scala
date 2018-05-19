@@ -2,7 +2,7 @@ package me.chadrs.moviescan.clients
 
 import java.io.File
 
-import me.chadrs.moviescan.clients.TmsApi.MovieShowing
+import me.chadrs.moviescan.clients.Tms.MovieShowing
 import io.circe.jawn.parseFile
 import org.specs2.mutable.Specification
 

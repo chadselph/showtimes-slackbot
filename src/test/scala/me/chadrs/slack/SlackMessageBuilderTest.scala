@@ -29,8 +29,73 @@ class SlackMessageBuilderTest extends Specification {
       ).asJson
       println(json.spaces2)
       json must_== json"""
-                          {}
-        """
+       {
+         "text" : "Create a movie poll!",
+         "response_type" : null,
+         "replace_original" : null,
+         "delete_original" : null,
+         "attachments" : [
+           {
+             "text" : "Choose which movies to include",
+             "fallback" : "Can't load: Choose which movies to include",
+             "callback_id" : "movie",
+             "color" : null,
+             "actions" : [
+               {
+                 "name" : "movie",
+                 "text" : "movie",
+                 "type" : "select",
+                 "value" : null,
+                 "selected_options" : null,
+                 "style" : null,
+                 "options" : [
+                   {
+                     "text" : "Black Panther",
+                     "value" : "Black Panther",
+                     "description" : null
+                   },
+                   {
+                     "text" : "I, Tonya",
+                     "value" : "I, Tonya",
+                     "description" : null
+                   }
+                 ]
+               }
+             ],
+             "attachment_type" : null
+           },
+           {
+             "text" : "Choose which theaters to include",
+             "fallback" : "Can't load: Choose which theaters to include",
+             "callback_id" : "theater",
+             "color" : null,
+             "actions" : [
+               {
+                 "name" : "theater",
+                 "text" : "theater",
+                 "type" : "select",
+                 "value" : null,
+                 "selected_options" : null,
+                 "style" : null,
+                 "options" : [
+                   {
+                     "text" : "AMC Van Ness 14",
+                     "value" : "AMC Van Ness 14",
+                     "description" : null
+                   },
+                   {
+                     "text" : "Alamo Drafthouse",
+                     "value" : "Alamo Drafthouse",
+                     "description" : null
+                   }
+                 ]
+               }
+             ],
+             "attachment_type" : null
+           }
+         ]
+       }
+       """
 
     }
   }

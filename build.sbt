@@ -1,4 +1,4 @@
-val Http4sVersion = "0.18.0"
+val Http4sVersion = "0.18.10"
 val Specs2Version = "4.0.2"
 val LogbackVersion = "1.2.3"
 val circeVersion = "0.9.0-M3"
@@ -9,6 +9,7 @@ lazy val root = (project in file("."))
     name := "movie-scraping-api",
     version := "0.0.1-SNAPSHOT",
     scalaVersion := "2.12.4",
+    assemblyJarName in assembly := "movie-scraping-api.jar",
     libraryDependencies ++= Seq(
       "org.http4s"      %% "http4s-blaze-server" % Http4sVersion,
       "org.http4s"      %% "http4s-blaze-client" % Http4sVersion,
@@ -21,7 +22,8 @@ lazy val root = (project in file("."))
       "io.circe" %% "circe-generic" % circeVersion,
       // Optional for string interpolation to JSON model
       "io.circe" %% "circe-literal" % circeVersion,
-      "io.circe" %% "circe-generic-extras" % circeVersion
+      "io.circe" %% "circe-generic-extras" % circeVersion,
+      "io.github.howardjohn" %% "http4s-lambda" % "0.3.0"
     )
   )
 

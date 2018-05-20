@@ -1,0 +1,23 @@
+service: slack-showtimes
+
+provider:
+  name: aws
+  runtime: java8
+  region: us-west-2
+  stage: dev
+  profile: serverless
+  environment:
+    TMS_API_KEY: ${file(creds.yaml):TMS_API_KEY}
+
+
+package:
+  artifact: target/scala-2.12/movie-scraping-api.jar
+
+functions:
+  api:
+    handler: me.chadrs.Launch$EntryPoint::handle
+    events:
+      - http:
+          path: "{proxy+}"
+          method: any
+          cors: true

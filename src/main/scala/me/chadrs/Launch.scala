@@ -1,7 +1,6 @@
 package me.chadrs
 
 import java.nio.file.Paths
-import java.time.LocalDate
 import java.util.concurrent.Executors
 
 import cats.effect.IO
@@ -9,13 +8,15 @@ import fs2.StreamApp
 import org.http4s._
 import org.http4s.dsl.Http4sDsl
 import io.circe.syntax._
-import me.chadrs.data.{DailyCachedShowtimes, ShowtimeDatabase, StaticShowtimes}
+import me.chadrs.data.{DailyCachedShowtimes, ShowtimeDatabase}
 import me.chadrs.moviepoll.ShowtimesPoll
 import me.chadrs.moviescan.clients.{SFShowtimeDatabase, TmsApiClient, TmsMovieSearch}
 import org.http4s.server.blaze.BlazeBuilder
 import me.chadrs.slack.{SlackAction, SlackCommand}
 import org.http4s.client.blaze.Http1Client
 import org.http4s.circe._
+import io.github.howardjohn.lambda.http4s.Http4sLambdaHandler
+
 
 import scala.concurrent.ExecutionContext
 
@@ -52,5 +53,8 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
       .bindHttp(7688, "0.0.0.0")
       .mountService(service, "/")
       .serve
+
+  class EntryPoint extends Http4sLambdaHandler(service)
+
 
 }

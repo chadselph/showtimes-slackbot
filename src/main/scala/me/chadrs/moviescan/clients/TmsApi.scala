@@ -1,6 +1,6 @@
 package me.chadrs.moviescan.clients
 
-import java.time.{Instant, LocalDate, LocalDateTime, ZoneOffset}
+import java.time.{Instant, LocalDate, LocalDateTime}
 
 import cats.effect.IO
 import io.circe.{Decoder, Encoder}
@@ -85,8 +85,8 @@ class SFShowtimeDatabase(api: TmsMovieSearch[IO]) extends ShowtimeDatabase {
   private val Zip = "94114"
   private val Timezone = java.time.ZoneId.of("America/Los_Angeles")
 
-  override def getShowTimes(): IO[scala.Seq[Showtime]] = {
-    api.showings(LocalDate.now(), "94114")
+  override def getShowTimes(zip: String = Zip, date: LocalDate = LocalDate.now()): IO[scala.Seq[Showtime]] = {
+    api.showings(date, zip)
       .map { showings =>
         showings.flatMap { movie =>
           movie.showtimes.map { st =>

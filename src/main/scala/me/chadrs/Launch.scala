@@ -1,6 +1,7 @@
 package me.chadrs
 
 import java.nio.file.Paths
+import java.time.LocalDate
 import java.util.concurrent.Executors
 
 import cats.effect.IO
@@ -17,7 +18,6 @@ import org.http4s.client.blaze.Http1Client
 import org.http4s.circe._
 import io.github.howardjohn.lambda.http4s.Http4sLambdaHandler
 
-
 import scala.concurrent.ExecutionContext
 
 object Launch extends StreamApp[IO] with Http4sDsl[IO] {
@@ -31,19 +31,18 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
   import me.chadrs.slack.SlackMessageBuilder.Implicits._
 
   val service = HttpService[IO] {
-    case GET -> Root / "v1" / "showtimes" =>
+    case GET -> Root / "v1" / "showtimes" / IntVar(zip) =>
       Ok(
-        //tmsClient.showings(LocalDate.now(), "94114").map(_.asJson)
-        showtimes.getShowTimes().map(_.asJson)
+        showtimes.getShowTimes(zip.toString, LocalDate.now()).map(_.asJson)
       )
     case req @ POST -> Root / "slack" =>
       req.decode[SlackCommand] { data =>
-        Ok(ShowtimesPoll.newPoll(showtimes.getShowTimes().unsafeRunSync()).asJson)
+        Ok(ShowtimesPoll.newPoll(showtimes.getShowTimes("94114", LocalDate.now()).unsafeRunSync()).asJson)
       }
 
     case req @ POST -> Root / "slack-menu" =>
       req.decode[SlackAction] { slackAction =>
-        Ok(ShowtimesPoll.update(showtimes.getShowTimes().unsafeRunSync(), slackAction).asJson)
+        Ok(ShowtimesPoll.update(showtimes.getShowTimes("94114", LocalDate.now()).unsafeRunSync(), slackAction).asJson)
       }
   }
 

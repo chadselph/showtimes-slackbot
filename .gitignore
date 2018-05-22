@@ -1,3 +1,5 @@
 .idea
 creds.yaml
 .serverless
+target/
+showtimes-cache/

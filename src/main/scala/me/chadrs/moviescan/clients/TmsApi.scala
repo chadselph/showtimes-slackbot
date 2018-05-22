@@ -80,7 +80,7 @@ class TmsApiClient(apiKey: String,
 
 }
 
-class SFShowtimeDatabase(api: TmsMovieSearch[IO]) extends ShowtimeDatabase {
+class TmsShowtimeDatabase(api: TmsMovieSearch[IO]) extends ShowtimeDatabase {
 
   private val Zip = "94114"
   private val Timezone = java.time.ZoneId.of("America/Los_Angeles")

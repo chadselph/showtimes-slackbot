@@ -10,6 +10,13 @@ lazy val root = (project in file("."))
     version := "0.0.1-SNAPSHOT",
     scalaVersion := "2.12.4",
     assemblyJarName in assembly := "movie-scraping-api.jar",
+    assemblyMergeStrategy in assembly := {
+      case x if x.endsWith("io.netty.versions.properties") => MergeStrategy.first
+      case x =>
+        val oldStrategy = (assemblyMergeStrategy in assembly).value
+        oldStrategy(x)
+
+    },
     libraryDependencies ++= Seq(
       "org.http4s"      %% "http4s-blaze-server" % Http4sVersion,
       "org.http4s"      %% "http4s-blaze-client" % Http4sVersion,
@@ -23,7 +30,8 @@ lazy val root = (project in file("."))
       // Optional for string interpolation to JSON model
       "io.circe" %% "circe-literal" % circeVersion,
       "io.circe" %% "circe-generic-extras" % circeVersion,
-      "io.github.howardjohn" %% "http4s-lambda" % "0.3.0"
+      "io.github.howardjohn" %% "http4s-lambda" % "0.3.0",
+      "software.amazon.awssdk" % "s3" % "2.0.0-preview-9"
     )
   )
 

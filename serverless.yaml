@@ -8,6 +8,15 @@ provider:
   profile: serverless
   environment:
     TMS_API_KEY: ${file(creds.yaml):TMS_API_KEY}
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:PutObject*"
+      Resource: "arn:aws:s3:::movie-showtimes"
+    - Effect: "Allow"
+      Action:
+        - "s3:GetObject*"
+      Resource: "arn:aws:s3:::movie-showtimes"
 
 
 package:

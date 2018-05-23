@@ -1,31 +1,28 @@
 package me.chadrs
 
 import java.nio.file.Paths
-import java.time.LocalDate
+import java.time.{LocalDate, LocalTime}
 import java.util.concurrent.Executors
 
 import cats.effect.IO
 import fs2.StreamApp
-import org.http4s._
-import org.http4s.dsl.Http4sDsl
 import io.circe.syntax._
+import io.github.howardjohn.lambda.http4s.Http4sLambdaHandler
+import me.chadrs.cachelayers.{CirceFileCache, InMemoryCache}
 import me.chadrs.data.{DailyCachedShowtimes, Showtime, ShowtimeDatabase}
 import me.chadrs.moviepoll.ShowtimesPoll
-import me.chadrs.moviescan.clients.{TmsApiClient, TmsMovieSearch, TmsShowtimeDatabase}
-import org.http4s.server.blaze.BlazeBuilder
+import me.chadrs.moviescan.clients.{TmsMovieSearch, TmsShowtimeDatabase}
 import me.chadrs.slack.{SlackAction, SlackCommand}
-import org.http4s.client.blaze.Http1Client
+import org.http4s._
 import org.http4s.circe._
-import io.github.howardjohn.lambda.http4s.Http4sLambdaHandler
-import me.chadrs.cachelayers.{CirceFileCache, CirceS3Cache, InMemoryCache}
-import software.amazon.awssdk.services.s3.S3AsyncClient
+import org.http4s.dsl.Http4sDsl
+import org.http4s.server.blaze.BlazeBuilder
 
 import scala.concurrent.ExecutionContext
 
 object Launch extends StreamApp[IO] with Http4sDsl[IO] {
 
-
-  val tmsClient: TmsMovieSearch[IO] = new TmsApiClient(System.getenv("TMS_API_KEY"), Http1Client[IO]().unsafeRunSync)
+  val tmsClient: TmsMovieSearch[IO] = TmsMovieSearch.fromEnv()
 
   implicit val ec: ExecutionContext =
     ExecutionContext.fromExecutor(Executors.newWorkStealingPool())
@@ -33,21 +30,33 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
 
   def service(db: ShowtimeDatabase): HttpService[IO] = HttpService[IO] {
     case GET -> Root / "v1" / "showtimes" / IntVar(zip) =>
-      loadData(db, zip.toString, LocalDate.now()) { showtimes =>
+      loadData(db, zip.toString, PacificTime.today()) { showtimes =>
         Ok(
           showtimes.asJson
         )
       }
     case req @ POST -> Root / "slack" =>
+      import me.chadrs.moviepoll.ShowtimeCommands._
       req.decode[SlackCommand] { data =>
-        loadData(db, "94114", LocalDate.now()) { showtimes =>
-          Ok(ShowtimesPoll.newPoll(showtimes).asJson)
+        loadData(db, "94114", PacificTime.today()) { showtimes =>
+          val resp = data match {
+            case MovieShowtimesCmd(movie) =>
+              ShowtimesPoll.listShowtimes(showtimes, Seq(movie), Nil, PacificTime.today(), LocalTime.MIDNIGHT)
+            case AllMoviesCmd(_) =>
+              ShowtimesPoll.listMovies(showtimes)
+            case AllTheatersCmd(_) =>
+              ShowtimesPoll.listTheaters(showtimes)
+            case TheaterShowtimesCmd(theater) =>
+              ShowtimesPoll.listShowtimes(showtimes, Nil, Seq(theater), PacificTime.today(), LocalTime.MIDNIGHT)
+            case _ => ShowtimesPoll.newPoll(showtimes)
+          }
+          Ok(resp.asJson)
         }
       }
 
     case req @ POST -> Root / "slack-menu" =>
       req.decode[SlackAction] { slackAction =>
-        loadData(db, "94114", LocalDate.now()) { showtimes =>
+        loadData(db, "94114", PacificTime.today()) { showtimes =>
           Ok(ShowtimesPoll.update(showtimes, slackAction).asJson)
         }
       }
@@ -56,6 +65,7 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
   private def loadData(db: ShowtimeDatabase, zip: String, time: LocalDate)(cont: Seq[Showtime] => IO[Response[IO]]) = {
     db.getShowTimes(zip, time).flatMap(cont)
   }
+
   def stream(args: List[String],
              requestShutdown: IO[Unit]): fs2.Stream[IO, StreamApp.ExitCode] =
     BlazeBuilder[IO]
@@ -71,13 +81,8 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
 
   class EntryPoint extends Http4sLambdaHandler(service(
     new DailyCachedShowtimes(new InMemoryCache[IO, (String, LocalDate), Seq[Showtime]](
-      new CirceS3Cache[(String, LocalDate), Seq[Showtime]](
-        S3AsyncClient.create(),
-        "movie-showtimes",
-        { case (zip, localdate) => s"$localdate/$zip" },
-        { case (zip, localdate) => new TmsShowtimeDatabase(tmsClient).getShowTimes(zip, localdate) })
-    ))
-  ))
+      Caching.fileBackedCache(Caching.FileDir, new TmsShowtimeDatabase(tmsClient))
+  ))))
 
 
 }

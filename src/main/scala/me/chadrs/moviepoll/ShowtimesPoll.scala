@@ -3,6 +3,7 @@ package me.chadrs.moviepoll
 import java.time.format.DateTimeFormatter
 import java.time.{Instant, LocalDate, LocalTime, ZonedDateTime}
 
+import me.chadrs.PacificTime
 import me.chadrs.data.Showtime
 import me.chadrs.slack.SlackAction
 import me.chadrs.slack.SlackMessageBuilder.{SlackMessage, _}
@@ -24,7 +25,7 @@ object ShowtimesPoll {
       List("Today", "Tomorrow", "Day after tomorrow").zipWithIndex.map {
         case (s, index) =>
           button("create", s, Style.Primary)
-            .copy(value = Some(LocalDate.now().plusDays(index).toString))
+            .copy(value = Some(PacificTime.today().plusDays(index).toString))
       }
     response(
       "Create a movie poll!",
@@ -90,14 +91,30 @@ object ShowtimesPoll {
         showtime.start.isBefore(day.plusDays(1).atTime(0, 0).toInstant(localOffset)) &&
         showtime.start.isAfter(Instant.now())
     }.groupBy(s => (s.movieName, s.theaterName)).toList.sortBy(_._1)
-
-    respondAndReplace("Showtimes", showtimes.flatMap { case ((movie, theater), times) =>
+    val matches = showtimes.flatMap { case ((movie, theater), times) =>
       times.sortBy(_.start).grouped(maxActionsPerAttachmentInSlack).map { shows5 =>
         attachment(s"$movie at $theater", movie, shows5.map { showtime =>
           button(showtime.toString, showtime.start.atOffset(localOffset).format(timeFormater))
         }: _*)
       }
-    }: _*)
+    }
+
+    if (matches.isEmpty) {
+      respondAndReplace("Sorry, but there were no showtimes matching your search.")
+    } else respondAndReplace("Showtimes", matches: _*)
+  }
+
+  def listMovies(allShowtimes: Seq[Showtime]): SlackMessage = {
+    response("All movies playing today", attachment(
+      sortByOccurance(allShowtimes.map(_.movieName)).mkString("\n"), "123"
+    ))
+  }
+
+  def listTheaters(allShowtimes: Seq[Showtime]): SlackMessage = {
+    response("All theaters playing movies today", attachment(
+      sortByOccurance(allShowtimes.map(_.theaterName)).mkString("\n"), "123"
+    ))
+
   }
 
   private def readMultiselectForm(attachments: Seq[Attachment]): Map[String, Seq[String]] = {
@@ -126,5 +143,8 @@ object ShowtimesPoll {
       case other => other
     }
   }
+
+  private def sortByOccurance[T](seq: Seq[T]) =
+    seq.groupBy(identity).toSeq.sortBy(_._2.length)(implicitly[Ordering[Int]].reverse).map(_._1)
 
 }

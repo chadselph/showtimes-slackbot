@@ -1,0 +1,11 @@
+* Stateful apps
+* Isolate generic parts into library
+* Support outside of SF
+* Relax matching on searches
+* Movie descriptions and photos
+* How to do polls?
+* Optimize latency
+  * Cache directly from byte stream into S3, without parsing or buffering
+  * Proguard to lower bytes
+  * Consider rewrite without http4s/cats (or split into submodules)
+  * Try non-aws FaaS vendors

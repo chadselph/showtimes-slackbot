@@ -3,6 +3,7 @@ package me.chadrs.moviescan.clients
 import java.time.{Instant, LocalDate, LocalDateTime}
 
 import cats.effect.IO
+import fs2.Chunk
 import io.circe.{Decoder, Encoder}
 
 import scala.collection.immutable.Seq
@@ -14,6 +15,7 @@ import org.http4s.dsl.Http4sDsl
 import org.http4s.circe._
 import io.circe.generic.semiauto.{deriveDecoder, deriveEncoder}
 import me.chadrs.data.{Showtime, ShowtimeDatabase}
+import org.http4s.client.blaze.Http1Client
 
 
 object Tms {
@@ -56,6 +58,11 @@ object Tms {
   }
 }
 
+object TmsMovieSearch {
+  def fromEnv(): TmsMovieSearch[IO] =
+    new TmsApiClient(System.getenv("TMS_API_KEY").trim, Http1Client[IO]().unsafeRunSync)
+}
+
 trait TmsMovieSearch[F[_]] {
   def showings(startDate: LocalDate, zip: ZipCode): F[Seq[MovieShowing]]
 }
@@ -85,7 +92,7 @@ class TmsShowtimeDatabase(api: TmsMovieSearch[IO]) extends ShowtimeDatabase {
   private val Zip = "94114"
   private val Timezone = java.time.ZoneId.of("America/Los_Angeles")
 
-  override def getShowTimes(zip: String = Zip, date: LocalDate = LocalDate.now()): IO[scala.Seq[Showtime]] = {
+  override def getShowTimes(zip: String, date: LocalDate): IO[scala.Seq[Showtime]] = {
     api.showings(date, zip)
       .map { showings =>
         showings.flatMap { movie =>

@@ -6,6 +6,7 @@ import java.util.concurrent.{CancellationException, CompletableFuture, Completio
 import cats.Monad
 import cats.effect.IO
 import io.circe.{Decoder, Encoder}
+import org.slf4j.LoggerFactory
 import software.amazon.awssdk.core.async.{AsyncRequestProvider, AsyncResponseHandler}
 import software.amazon.awssdk.services.s3.S3AsyncClient
 import software.amazon.awssdk.services.s3.model.{GetObjectRequest, GetObjectResponse, PutObjectRequest}
@@ -76,6 +77,8 @@ class CirceS3Cache[K, V: Encoder: Decoder](s3Client: S3AsyncClient,
                                                         backing: K => IO[V])
     extends WriteThroughCache[IO, K, V] {
 
+  private val logger = LoggerFactory.getLogger(getClass)
+
   private def fromJavaFuture[A](cf: CompletableFuture[A]): IO[A] =
     IO.cancelable(cb => {
       cf.handle[Unit]((result: A, err: Throwable) => {
@@ -102,7 +105,8 @@ class CirceS3Cache[K, V: Encoder: Decoder](s3Client: S3AsyncClient,
       .attempt
       .map(str => str.flatMap(io.circe.jawn.parse).flatMap(_.as[V]))
       .flatMap {
-        case Left(_) =>
+        case Left(ex) =>
+          logger.info(s"Failed to fetch key $s3Key: $ex")
           backing(key).map { value =>
             val req = PutObjectRequest.builder().bucket(bucket).key(s3Key).build()
             val obj = io.circe.Encoder[V].apply(value).spaces2

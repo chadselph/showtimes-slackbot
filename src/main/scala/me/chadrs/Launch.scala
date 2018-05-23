@@ -1,7 +1,7 @@
 package me.chadrs
 
 import java.nio.file.Paths
-import java.time.{LocalDate, LocalTime}
+import java.time.LocalDate
 import java.util.concurrent.Executors
 
 import cats.effect.IO
@@ -41,13 +41,13 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
         loadData(db, "94114", PacificTime.today()) { showtimes =>
           val resp = data match {
             case MovieShowtimesCmd(movie) =>
-              ShowtimesPoll.listShowtimes(showtimes, Seq(movie), Nil, PacificTime.today(), LocalTime.MIDNIGHT)
+              ShowtimesPoll.listShowtimes(showtimes, Seq(movie), Nil, PacificTime.zonedDateTime())
             case AllMoviesCmd(_) =>
               ShowtimesPoll.listMovies(showtimes)
             case AllTheatersCmd(_) =>
               ShowtimesPoll.listTheaters(showtimes)
             case TheaterShowtimesCmd(theater) =>
-              ShowtimesPoll.listShowtimes(showtimes, Nil, Seq(theater), PacificTime.today(), LocalTime.MIDNIGHT)
+              ShowtimesPoll.listShowtimes(showtimes, Nil, Seq(theater), PacificTime.zonedDateTime())
             case _ => ShowtimesPoll.newPoll(showtimes)
           }
           Ok(resp.asJson)

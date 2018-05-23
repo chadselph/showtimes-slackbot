@@ -1,7 +1,7 @@
 package me.chadrs.moviepoll
 
 import java.time.format.DateTimeFormatter
-import java.time.{Instant, LocalDate, LocalTime, ZonedDateTime}
+import java.time.{Instant, LocalDate, LocalDateTime, LocalTime, ZonedDateTime}
 
 import me.chadrs.PacificTime
 import me.chadrs.data.Showtime
@@ -68,8 +68,9 @@ object ShowtimesPoll {
       case sa @ SlackAction.SelectedOption("create", day) =>
         val form = readMultiselectForm(sa.originalMessage.attachments)
         val simpleHourFormat = DateTimeFormatter.ofPattern("ha")
-        def parseHour(hour: String): LocalTime = LocalTime.parse(hour.toUpperCase, simpleHourFormat)
-        listShowtimes(showtimes, form.getOrElse("movie", Nil), form.getOrElse("theater", Nil), LocalDate.parse(day), parseHour(form.get("time").flatMap(_.headOption).getOrElse("12am")))
+        def parseAfter(hour: String) = PacificTime.today().atTime(LocalTime.parse(hour.toUpperCase, simpleHourFormat)).atZone(PacificTime.tz)
+        listShowtimes(showtimes, form.getOrElse("movie", Nil), form.getOrElse("theater", Nil),
+          parseAfter(form.get("time").flatMap(_.headOption).getOrElse("12am")))
 
       case sa @ SlackAction.SelectedOption(cmd, arg) =>
         response(s"$cmd($arg)")
@@ -80,21 +81,20 @@ object ShowtimesPoll {
     }
   }
 
-  def listShowtimes(allShowtimes: Seq[Showtime], movies: Seq[String], theaters: Seq[String], day: LocalDate, after: LocalTime): SlackMessage = {
+  def listShowtimes(allShowtimes: Seq[Showtime], movies: Seq[String], theaters: Seq[String], after: ZonedDateTime): SlackMessage = {
     val timeFormater = DateTimeFormatter.ofPattern("h:mma")
-    val localOffset = ZonedDateTime.now.getOffset
     val maxActionsPerAttachmentInSlack = 5
     val showtimes = allShowtimes.filter { showtime =>
       (movies.isEmpty || movies.contains(showtime.movieName)) &&
         (theaters.isEmpty || theaters.contains(showtime.theaterName)) &&
-        showtime.start.isAfter(day.atTime(after).toInstant(localOffset) ) &&
-        showtime.start.isBefore(day.plusDays(1).atTime(0, 0).toInstant(localOffset)) &&
+        showtime.start.isAfter(after.toInstant) &&
+        showtime.start.isBefore(after.plusDays(1).toLocalDate.atStartOfDay(after.getOffset).toInstant) &&
         showtime.start.isAfter(Instant.now())
     }.groupBy(s => (s.movieName, s.theaterName)).toList.sortBy(_._1)
     val matches = showtimes.flatMap { case ((movie, theater), times) =>
       times.sortBy(_.start).grouped(maxActionsPerAttachmentInSlack).map { shows5 =>
         attachment(s"$movie at $theater", movie, shows5.map { showtime =>
-          button(showtime.toString, showtime.start.atOffset(localOffset).format(timeFormater))
+          button(showtime.toString, showtime.start.atOffset(after.getOffset).format(timeFormater))
         }: _*)
       }
     }

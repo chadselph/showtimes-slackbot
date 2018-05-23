@@ -3,7 +3,6 @@ package me.chadrs.moviescan.clients
 import java.time.{Instant, LocalDate, LocalDateTime}
 
 import cats.effect.IO
-import fs2.Chunk
 import io.circe.{Decoder, Encoder}
 
 import scala.collection.immutable.Seq

@@ -71,10 +71,11 @@ class CirceFileCache[F[_]: Monad, K, V: Encoder: Decoder](getPath: K => Path,
   }
 }
 
-class CirceS3Cache[K, V: Encoder: Decoder](s3Client: S3AsyncClient,
-                                                        bucket: String,
-                                                        getKey: K => String,
-                                                        backing: K => IO[V])
+class CirceS3Cache[K, V: Encoder: Decoder](
+  s3Client: S3AsyncClient,
+  bucket: String,
+  getKey: K => String,
+  backing: K => IO[V])
     extends WriteThroughCache[IO, K, V] {
 
   private val logger = LoggerFactory.getLogger(getClass)
@@ -107,13 +108,18 @@ class CirceS3Cache[K, V: Encoder: Decoder](s3Client: S3AsyncClient,
       .flatMap {
         case Left(ex) =>
           logger.info(s"Failed to fetch key $s3Key: $ex")
-          backing(key).map { value =>
+          backing(key).flatMap { value =>
             val req = PutObjectRequest.builder().bucket(bucket).key(s3Key).build()
             val obj = io.circe.Encoder[V].apply(value).spaces2
-            s3Client.putObject(req, AsyncRequestProvider.fromString(obj))
-            value
+            val put = fromJavaFuture(s3Client.putObject(req, AsyncRequestProvider.fromString(obj)))
+            put.attempt.map { tried =>
+              logger.info(s"Result of setting $s3Key was $tried")
+              value
+            }
           }
-        case Right(v) => IO.pure(v)
+        case Right(v) =>
+          logger.info(s"Cache hit for $s3Key")
+          IO.pure(v)
       }
   }
 }

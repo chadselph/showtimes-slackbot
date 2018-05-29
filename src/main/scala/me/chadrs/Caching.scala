@@ -8,6 +8,7 @@ import cats.effect.IO
 import me.chadrs.cachelayers.{CirceFileCache, CirceS3Cache, InMemoryCache, WriteThroughCache}
 import me.chadrs.data.{Showtime, ShowtimeDatabase}
 import me.chadrs.moviescan.clients.{TmsMovieSearch, TmsShowtimeDatabase}
+import org.slf4j.LoggerFactory
 import software.amazon.awssdk.services.s3.S3AsyncClient
 
 object Caching {
@@ -40,10 +41,14 @@ object Caching {
 // Lambda cron tasks
 class CacheTasks {
 
+  private val logger = LoggerFactory.getLogger(getClass)
+
   def loadCache(_is: InputStream, os: OutputStream): Unit = {
+    val start = System.currentTimeMillis()
     Caching.s3BackedCache(Caching.BucketName, new TmsShowtimeDatabase(TmsMovieSearch.fromEnv()))
-        .getOrUpdate(("94114", PacificTime.today()))
+        .getOrUpdate(("94114", PacificTime.today())).unsafeRunSync()
     os.write("""{"success": true}""".getBytes)
+    logger.info(s"Ran cache update in ${System.currentTimeMillis() - start}ms")
   }
 
 }

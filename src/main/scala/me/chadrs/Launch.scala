@@ -72,16 +72,14 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
       .bindHttp(7688, "0.0.0.0")
       .mountService(service(
         new DailyCachedShowtimes(new InMemoryCache[IO, (String, LocalDate), Seq[Showtime]](
-          new CirceFileCache[IO, (String, LocalDate), Seq[Showtime]](
-            { case (zip, localdate) => Paths.get("showtimes-cache", localdate.toString, zip) },
-            { case (zip, localdate) => new TmsShowtimeDatabase(tmsClient).getShowTimes(zip, localdate) })
+          Caching.fileBackedCache(Paths.get("showtimes-cache"), new TmsShowtimeDatabase(tmsClient))
         ))
       ), "/")
       .serve
 
   class EntryPoint extends Http4sLambdaHandler(service(
     new DailyCachedShowtimes(new InMemoryCache[IO, (String, LocalDate), Seq[Showtime]](
-      Caching.fileBackedCache(Caching.FileDir, new TmsShowtimeDatabase(tmsClient))
+      Caching.s3BackedCache(Caching.BucketName, new TmsShowtimeDatabase(tmsClient))
   ))))
 
 

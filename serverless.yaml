@@ -37,3 +37,8 @@ functions:
           path: "{proxy+}"
           method: any
           cors: true
+  ping:
+    timeout: 5
+    handler: me.chadrs.Ping::ping
+    events:
+      - schedule: rate(20 minutes)

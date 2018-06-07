@@ -8,7 +8,8 @@ import cats.effect.IO
 import fs2.StreamApp
 import io.circe.syntax._
 import io.github.howardjohn.lambda.http4s.Http4sLambdaHandler
-import me.chadrs.cachelayers.{CirceFileCache, InMemoryCache}
+import me.chadrs.TimingLogger.time
+import me.chadrs.cachelayers.InMemoryCache
 import me.chadrs.data.{DailyCachedShowtimes, Showtime, ShowtimeDatabase}
 import me.chadrs.moviepoll.ShowtimesPoll
 import me.chadrs.moviescan.clients.{TmsMovieSearch, TmsShowtimeDatabase}
@@ -48,9 +49,12 @@ object Launch extends StreamApp[IO] with Http4sDsl[IO] {
               ShowtimesPoll.listTheaters(showtimes)
             case TheaterShowtimesCmd(theater) =>
               ShowtimesPoll.listShowtimes(showtimes, Nil, Seq(theater), PacificTime.zonedDateTime())
-            case _ => ShowtimesPoll.newPoll(showtimes)
+            case _ =>
+              time("newPoll") {
+                ShowtimesPoll.newPoll(showtimes)
+              }
           }
-          Ok(resp.asJson)
+          Ok(time("asJson")(resp.asJson))
         }
       }
 

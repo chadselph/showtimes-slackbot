@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory
 import software.amazon.awssdk.core.async.{AsyncRequestProvider, AsyncResponseHandler}
 import software.amazon.awssdk.services.s3.S3AsyncClient
 import software.amazon.awssdk.services.s3.model.{GetObjectRequest, GetObjectResponse, PutObjectRequest}
+import me.chadrs.TimingLogger.time
 
 import scala.util.Try
 
@@ -42,9 +43,13 @@ class InMemoryCache[F[_]: Monad, K, V](backing: K => F[V])
     extends BackedWriteThroughCache[F, K, V](backing) {
 
   private val cache = scala.collection.concurrent.TrieMap[K, V]()
-  override protected def get(key: K): Option[V] = cache.get(key)
+  override protected def get(key: K): Option[V] = time("inmemory-get") {
+    cache.get(key)
+  }
   override protected def set(key: K, value: V): F[Unit] =
-    implicitly[Monad[F]].pure(cache.put(key, value))
+    time("inmemory-set") {
+      implicitly[Monad[F]].pure(cache.put(key, value))
+    }
 }
 
 class CirceFileCache[F[_]: Monad, K, V: Encoder: Decoder](getPath: K => Path,
@@ -54,7 +59,9 @@ class CirceFileCache[F[_]: Monad, K, V: Encoder: Decoder](getPath: K => Path,
   override protected def get(key: K): Option[V] = {
     val p = getPath(key)
     if (Files.exists(p)) {
-      io.circe.jawn.parseFile(p.toFile).flatMap(_.as[V]).toOption
+      time("parseFile") {
+        io.circe.jawn.parseFile(p.toFile).flatMap(_.as[V]).toOption
+      }
     } else None
   }
 
@@ -64,7 +71,9 @@ class CirceFileCache[F[_]: Monad, K, V: Encoder: Decoder](getPath: K => Path,
     val writeFile = Try {
       path.getParent.toFile.mkdirs()
       val newFile = Files.createFile(path)
-      Files.write(newFile, values.asJson.spaces2.getBytes("UTF-8"))
+      time("write-file") {
+        Files.write(newFile, values.asJson.spaces2.getBytes("UTF-8"))
+      }
     }
     println(s"writing file was: $writeFile")
     implicitly[Monad[F]].unit
@@ -104,13 +113,13 @@ class CirceS3Cache[K, V: Encoder: Decoder](
       s3Client.getObject(req,
                          AsyncResponseHandler.toUtf8String[GetObjectResponse]))
       .attempt
-      .map(str => str.flatMap(io.circe.jawn.parse).flatMap(_.as[V]))
+      .map(str => str.flatMap(j => time("s3-decode-json")(io.circe.jawn.parse(j))).flatMap(_.as[V]))
       .flatMap {
         case Left(ex) =>
           logger.info(s"Failed to fetch key $s3Key: $ex")
           backing(key).flatMap { value =>
             val req = PutObjectRequest.builder().bucket(bucket).key(s3Key).build()
-            val obj = io.circe.Encoder[V].apply(value).spaces2
+            val obj = time("s3-encode-json")(io.circe.Encoder[V].apply(value).spaces2)
             val put = fromJavaFuture(s3Client.putObject(req, AsyncRequestProvider.fromString(obj)))
             put.attempt.map { tried =>
               logger.info(s"Result of setting $s3Key was $tried")

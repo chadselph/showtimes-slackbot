@@ -47,9 +47,9 @@ object SlackMessageBuilder {
                     options: Option[Seq[SelectOption]])
   case class Attachment(text: String,
                         fallback: String,
-                        callbackId: String,
+                        callbackId: Option[String],
                         color: Option[String],
-                        actions: Seq[Action],
+                        actions: Option[Seq[Action]],
                         attachmentType: Option[AttachmentType])
   case class SlackMessage(text: String,
                           responseType: Option[ResponseType],
@@ -61,7 +61,13 @@ object SlackMessageBuilder {
     SlackMessage(text, None, None, None, attachments)
   }
 
-  def respondAndReplace(text: String, attachments: Attachment*): SlackMessage = {
+  def responseInChannel(text: String,
+                        attachments: Attachment*): SlackMessage = {
+    SlackMessage(text, Some(ResponseType.InChannel), None, None, attachments)
+  }
+
+  def respondAndReplace(text: String,
+                        attachments: Attachment*): SlackMessage = {
     SlackMessage(text, None, Some(true), None, attachments)
   }
 
@@ -70,9 +76,9 @@ object SlackMessageBuilder {
                  actions: Action*): Attachment = {
     Attachment(text,
                s"Can't load: $text",
-               callbackId,
+               Some(callbackId),
                None,
-               actions,
+               Some(actions),
                None)
   }
 
@@ -84,8 +90,11 @@ object SlackMessageBuilder {
              description: Option[String] = None) =
     SelectOption(text, value.getOrElse(text), description)
 
-  def button(name: String, text: String, style: Style = Style.Default): Action =
-    Action(name, text, Type.Button, None, None, Some(style), None)
+  def button(name: String,
+             text: String,
+             value: Option[String] = None,
+             style: Style = Style.Default): Action =
+    Action(name, text, Type.Button, value, None, Some(style), None)
 
   object Implicits {
     /* circe codecs */

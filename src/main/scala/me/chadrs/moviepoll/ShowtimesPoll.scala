@@ -8,6 +8,7 @@ import me.chadrs.PacificTime
 import me.chadrs.data.Showtime
 import me.chadrs.slack.SlackAction
 import me.chadrs.slack.SlackMessageBuilder.{SlackMessage, _}
+import io.circe.syntax._
 
 object ShowtimesPoll {
 
@@ -25,8 +26,10 @@ object ShowtimesPoll {
     val days =
       List("Today", "Tomorrow", "Day after tomorrow").zipWithIndex.map {
         case (s, index) =>
-          button("create", s, Style.Primary)
-            .copy(value = Some(PacificTime.today().plusDays(index).toString))
+          button("create",
+                 s,
+                 Some(PacificTime.today().plusDays(index).toString),
+                 Style.Primary)
       }
     response(
       "Create a movie poll!",
@@ -46,34 +49,66 @@ object ShowtimesPoll {
       case sa @ SlackAction.SelectedOption("movie", movie) =>
         respondAndReplace(
           s"Added $movie",
-          updateMultiselect(sa.originalMessage.attachments, "movie", movie): _*
+          updateMultiselect(sa.originalAttachments, "movie", movie): _*
         )
       case sa @ SlackAction.SelectedOption("theater", theater) =>
         respondAndReplace(s"Added $theater",
-                          updateMultiselect(sa.originalMessage.attachments,
+                          updateMultiselect(sa.originalAttachments,
                                             "theater",
                                             theater): _*)
 
       case sa @ SlackAction.SelectedOption("time", time) =>
-        val updatedAttachments = sa.originalMessage.attachments.map {
-          case att if att.callbackId == "time" =>
+        val updatedAttachments = sa.originalAttachments.map {
+          case att if att.callbackId.contains("time") =>
             att.copy(
-              actions = att.actions.map(
+              actions = Some(att.actions.getOrElse(Nil).map(
                 _.copy(selectedOptions = Some(Seq(
                   SelectOption(time, time, None)
-                )))))
+                ))))))
           case other => other
         }
         respondAndReplace(s"set time to after $time", updatedAttachments: _*)
 
       case sa @ SlackAction.SelectedOption("create", dayString) =>
-        val form = readMultiselectForm(sa.originalMessage.attachments)
+        val form = readMultiselectForm(sa.originalAttachments)
         val simpleHourFormat = DateTimeFormatter.ofPattern("ha")
         val hour = form.get("time").flatMap(_.headOption).getOrElse("12am")
         val day = LocalDate.parse(dayString)
-        val after = day.atTime(LocalTime.parse(hour.toUpperCase, simpleHourFormat)).atZone(PacificTime.tz)
-        val title = s"Showtimes for ${day.getDayOfWeek.getDisplayName(TextStyle.FULL, Locale.US)}"
-        listShowtimes(showtimes, form.getOrElse("movie", Nil), form.getOrElse("theater", Nil), after, title)
+        val after = day
+          .atTime(LocalTime.parse(hour.toUpperCase, simpleHourFormat))
+          .atZone(PacificTime.tz)
+        val title =
+          s"Showtimes for ${day.getDayOfWeek.getDisplayName(TextStyle.FULL, Locale.US)}"
+        listShowtimes(showtimes,
+                      form.getOrElse("movie", Nil),
+                      form.getOrElse("theater", Nil),
+                      after,
+                      title)
+
+      case sa @ SlackAction.SelectedOption("suggest-showtime", showtimeJson) =>
+        val timeFormater = DateTimeFormatter.ofPattern("EEEE h:mma")
+        val decoded = io.circe.parser.decode[Showtime](showtimeJson)
+        val username = if (sa.channel.name == "privategroup") sa.user.name else s"<@U${sa.user.id}>"
+        decoded.fold(
+          _ => response("Invalid showtime"),
+          showtime =>
+            responseInChannel(
+              s"$username has suggested a movie time!\n${showtime.movieName}\n" +
+                s"${showtime.start.atZone(PacificTime.tz).format(timeFormater)}\n${showtime.theaterName}.",
+              attachment(
+                "Can you make it?",
+                "??",
+                button("interested", "yes", Some("yes"), Style.Primary),
+                button("interested", "no", Some("no"), Style.Danger))
+          )
+        )
+
+      case sa @ SlackAction.SelectedOption("interested", answer) =>
+        val username = if (sa.channel.name == "privategroup") sa.user.name else s"<@U${sa.user.id}>"
+        respondAndReplace(
+          sa.originalMessage.map(_.text).getOrElse("oops... something went wrong..."),
+          sa.originalAttachments :+ attachment(s"$username says $answer", "1"):_*
+        )
 
       case sa @ SlackAction.SelectedOption(cmd, arg) =>
         response(s"$cmd($arg)")
@@ -84,49 +119,87 @@ object ShowtimesPoll {
     }
   }
 
-  def listShowtimes(allShowtimes: Seq[Showtime], movies: Seq[String], theaters: Seq[String], after: ZonedDateTime, title: String = "Showtimes"): SlackMessage = {
+  def listShowtimes(allShowtimes: Seq[Showtime],
+                    movies: Seq[String],
+                    theaters: Seq[String],
+                    after: ZonedDateTime,
+                    title: String = "Showtimes"): SlackMessage = {
     val timeFormater = DateTimeFormatter.ofPattern("h:mma")
     val maxActionsPerAttachmentInSlack = 5
-    val showtimes = allShowtimes.filter { showtime =>
-      (movies.isEmpty || movies.contains(showtime.movieName)) &&
+    val showtimes = allShowtimes
+      .filter { showtime =>
+        (movies.isEmpty || movies.contains(showtime.movieName)) &&
         (theaters.isEmpty || theaters.contains(showtime.theaterName)) &&
         showtime.start.isAfter(after.toInstant) &&
-        showtime.start.isBefore(after.plusDays(1).toLocalDate.atStartOfDay(after.getOffset).toInstant) &&
+        showtime.start.isBefore(
+          after
+            .plusDays(1)
+            .toLocalDate
+            .atStartOfDay(after.getOffset)
+            .toInstant) &&
         showtime.start.isAfter(Instant.now())
-    }.groupBy(s => (s.movieName, s.theaterName)).toList.sortBy(_._1)
-    val matches = showtimes.flatMap { case ((movie, theater), times) =>
-      times.sortBy(_.start).grouped(maxActionsPerAttachmentInSlack).map { shows5 =>
-        attachment(s"$movie at $theater", movie, shows5.map { showtime =>
-          button(showtime.toString, showtime.start.atOffset(after.getOffset).format(timeFormater))
-        }: _*)
       }
+      .groupBy(s => (s.movieName, s.theaterName))
+      .toList
+      .sortBy(_._1)
+    val matches = showtimes.flatMap {
+      case ((movie, theater), times) =>
+        times.sortBy(_.start).grouped(maxActionsPerAttachmentInSlack).map {
+          shows5 =>
+            attachment(
+              s"$movie at $theater",
+              movie,
+              shows5.map { showtime =>
+                button(
+                  "suggest-showtime",
+                  showtime.start.atOffset(after.getOffset).format(timeFormater),
+                  Some(showtime.asJson.noSpaces))
+              }: _*
+            )
+        }
     }
 
     if (matches.isEmpty) {
-      respondAndReplace("Sorry, but there were no showtimes matching your search.")
-    } else respondAndReplace(title, matches: _*)
+      respondAndReplace(
+        "Sorry, but there were no showtimes matching your search.")
+    } else
+      respondAndReplace(title, matches: _*)
+        .copy(responseType = Some(ResponseType.InChannel))
   }
 
   def listMovies(allShowtimes: Seq[Showtime]): SlackMessage = {
-    response("All movies playing today", attachment(
-      sortByOccurance(allShowtimes.map(_.movieName)).mkString("\n"), "123"
-    ))
+    response("All movies playing today",
+             attachment(
+               sortByOccurance(allShowtimes.map(_.movieName)).mkString("\n"),
+               "123"
+             ))
   }
 
   def listTheaters(allShowtimes: Seq[Showtime]): SlackMessage = {
-    response("All theaters playing movies today", attachment(
-      sortByOccurance(allShowtimes.map(_.theaterName)).mkString("\n"), "123"
-    ))
+    response("All theaters playing movies today",
+             attachment(
+               sortByOccurance(allShowtimes.map(_.theaterName)).mkString("\n"),
+               "123"
+             ))
 
   }
 
-  private def readMultiselectForm(attachments: Seq[Attachment]): Map[String, Seq[String]] = {
+  private def readMultiselectForm(
+      attachments: Seq[Attachment]): Map[String, Seq[String]] = {
     attachments.map { attachment =>
-      val values = attachment.actions.collect {
-        case Action(_, _, _, _, Some(Seq(SelectOption(text, value, _))), _, _) => value
-        case Action(_, text, _, value, _, _, None) => value.filterNot(_.isEmpty).getOrElse(text)
+      val values = attachment.actions.getOrElse(Nil).collect {
+        case Action(_,
+                    _,
+                    _,
+                    _,
+                    Some(Seq(SelectOption(text, value, _))),
+                    _,
+                    _) =>
+          value
+        case Action(_, text, _, value, _, _, None) =>
+          value.filterNot(_.isEmpty).getOrElse(text)
       }
-      attachment.callbackId -> values
+      attachment.callbackId.getOrElse("") -> values
     }.toMap
   }
 
@@ -134,20 +207,24 @@ object ShowtimesPoll {
                                 callbackId: String,
                                 newValue: String): Seq[Attachment] = {
     attachments.map {
-      case att if att.callbackId == callbackId =>
-        val removeFromOptions = att.actions.map {
+      case att if att.callbackId.contains(callbackId) =>
+        val removeFromOptions = att.actions.getOrElse(Nil).map {
           case action @ Action(_, _, _, _, _, _, Some(oldOptions)) =>
             action.copy(
               options = Some(oldOptions.filterNot(_.value == newValue)))
           case other => other
         }
         val addAsButton = button(newValue, newValue)
-        att.copy(actions = removeFromOptions ++ Seq(addAsButton))
+        att.copy(actions = Some(removeFromOptions ++ Seq(addAsButton)))
       case other => other
     }
   }
 
   private def sortByOccurance[T](seq: Seq[T]) =
-    seq.groupBy(identity).toSeq.sortBy(_._2.length)(implicitly[Ordering[Int]].reverse).map(_._1)
+    seq
+      .groupBy(identity)
+      .toSeq
+      .sortBy(_._2.length)(implicitly[Ordering[Int]].reverse)
+      .map(_._1)
 
 }

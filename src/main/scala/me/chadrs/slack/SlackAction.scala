@@ -23,8 +23,10 @@ case class SlackAction(actions: Seq[Action],
                        messageTs: String,
                        attachmentId: String,
                        token: String,
-                       originalMessage: OriginalMessage,
-                       responseUrl: String)
+                       originalMessage: Option[OriginalMessage],
+                       responseUrl: String) {
+  def originalAttachments: Seq[Attachment] = originalMessage.toSeq.flatMap(_.attachments)
+}
 
 case class OriginalMessage(
     attachments: Seq[Attachment],
@@ -45,25 +47,28 @@ object SlackAction {
                     `type`: Type,
                     selectedOptions: Option[Seq[SelectedOption]])
 
+
+  implicit val typeDecoder: Decoder[Type] = Decoder.decodeString.emap {
+    case "select" => Right(Type.Select)
+    case "button" => Right(Type.Button)
+    case unk      => Left(s"Unknown type: $unk")
+  }
+
+  implicit val decodeStyle: Decoder[Style] = Decoder.decodeString.emap {
+    case "default" => Right(Style.Default)
+    case "primary" => Right(Style.Primary)
+    case "danger"  => Right(Style.Danger)
+    case unk       => Left(s"Unknown style: $unk")
+  }
   implicit val config: Configuration =
     Configuration.default.withSnakeCaseMemberNames.withSnakeCaseConstructorNames
+
+  val slackActionDecoder: Decoder[SlackAction] = implicitly[Decoder[SlackAction]]
+
   implicit def entityDecoder[F[_]](implicit F: Sync[F],
                                    defaultCharset: Charset =
                                      org.http4s.DefaultCharset)
     : EntityDecoder[F, SlackAction] = {
-
-    implicit val typeDecoder: Decoder[Type] = Decoder.decodeString.emap {
-      case "select" => Right(Type.Select)
-      case "button" => Right(Type.Button)
-      case unk      => Left(s"Unknown type: $unk")
-    }
-
-    implicit val decodeStyle: Decoder[Style] = Decoder.decodeString.emap {
-      case "default" => Right(Style.Default)
-      case "primary" => Right(Style.Primary)
-      case "danger"  => Right(Style.Danger)
-      case unk       => Left(s"Unknown style: $unk")
-    }
 
     def decodeFormParam(param: String,
                         form: UrlForm): DecodeResult[F, String] = {

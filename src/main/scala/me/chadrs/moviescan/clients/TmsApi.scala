@@ -79,6 +79,7 @@ class TmsApiClient(apiKey: String,
       .withQueryParam("zip", zip)
       .withQueryParam("api_key", apiKey)
       .withQueryParam("startDate", startDate.toString)
+      .withQueryParam("numDays", "3")
     client.get(showingsPath) { resp =>
       resp.as[Seq[MovieShowing]]
     }

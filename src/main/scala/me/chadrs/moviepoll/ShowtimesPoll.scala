@@ -1,7 +1,8 @@
 package me.chadrs.moviepoll
 
-import java.time.format.DateTimeFormatter
-import java.time.{Instant, LocalDate, LocalDateTime, LocalTime, ZonedDateTime}
+import java.time.format.{DateTimeFormatter, TextStyle}
+import java.time.{Instant, LocalDate, LocalTime, ZonedDateTime}
+import java.util.Locale
 
 import me.chadrs.PacificTime
 import me.chadrs.data.Showtime
@@ -65,12 +66,14 @@ object ShowtimesPoll {
         }
         respondAndReplace(s"set time to after $time", updatedAttachments: _*)
 
-      case sa @ SlackAction.SelectedOption("create", day) =>
+      case sa @ SlackAction.SelectedOption("create", dayString) =>
         val form = readMultiselectForm(sa.originalMessage.attachments)
         val simpleHourFormat = DateTimeFormatter.ofPattern("ha")
-        def parseAfter(hour: String) = PacificTime.today().atTime(LocalTime.parse(hour.toUpperCase, simpleHourFormat)).atZone(PacificTime.tz)
-        listShowtimes(showtimes, form.getOrElse("movie", Nil), form.getOrElse("theater", Nil),
-          parseAfter(form.get("time").flatMap(_.headOption).getOrElse("12am")))
+        val hour = form.get("time").flatMap(_.headOption).getOrElse("12am")
+        val day = LocalDate.parse(dayString)
+        val after = day.atTime(LocalTime.parse(hour.toUpperCase, simpleHourFormat)).atZone(PacificTime.tz)
+        val title = s"Showtimes for ${day.getDayOfWeek.getDisplayName(TextStyle.FULL, Locale.US)}"
+        listShowtimes(showtimes, form.getOrElse("movie", Nil), form.getOrElse("theater", Nil), after, title)
 
       case sa @ SlackAction.SelectedOption(cmd, arg) =>
         response(s"$cmd($arg)")
@@ -81,7 +84,7 @@ object ShowtimesPoll {
     }
   }
 
-  def listShowtimes(allShowtimes: Seq[Showtime], movies: Seq[String], theaters: Seq[String], after: ZonedDateTime): SlackMessage = {
+  def listShowtimes(allShowtimes: Seq[Showtime], movies: Seq[String], theaters: Seq[String], after: ZonedDateTime, title: String = "Showtimes"): SlackMessage = {
     val timeFormater = DateTimeFormatter.ofPattern("h:mma")
     val maxActionsPerAttachmentInSlack = 5
     val showtimes = allShowtimes.filter { showtime =>
@@ -101,7 +104,7 @@ object ShowtimesPoll {
 
     if (matches.isEmpty) {
       respondAndReplace("Sorry, but there were no showtimes matching your search.")
-    } else respondAndReplace("Showtimes", matches: _*)
+    } else respondAndReplace(title, matches: _*)
   }
 
   def listMovies(allShowtimes: Seq[Showtime]): SlackMessage = {

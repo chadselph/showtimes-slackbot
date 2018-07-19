@@ -88,12 +88,11 @@ object ShowtimesPoll {
       case sa @ SlackAction.SelectedOption("suggest-showtime", showtimeJson) =>
         val timeFormater = DateTimeFormatter.ofPattern("EEEE h:mma")
         val decoded = io.circe.parser.decode[Showtime](showtimeJson)
-        val username = if (sa.channel.name == "privategroup") sa.user.name else s"<@U${sa.user.id}>"
         decoded.fold(
           _ => response("Invalid showtime"),
           showtime =>
             responseInChannel(
-              s"$username has suggested a movie time!\n${showtime.movieName}\n" +
+              s"${sa.user.mention} has suggested a movie time!\n${showtime.movieName}\n" +
                 s"${showtime.start.atZone(PacificTime.tz).format(timeFormater)}\n${showtime.theaterName}.",
               attachment(
                 "Can you make it?",
@@ -104,10 +103,9 @@ object ShowtimesPoll {
         )
 
       case sa @ SlackAction.SelectedOption("interested", answer) =>
-        val username = if (sa.channel.name == "privategroup") sa.user.name else s"<@U${sa.user.id}>"
         respondAndReplace(
           sa.originalMessage.map(_.text).getOrElse("oops... something went wrong..."),
-          sa.originalAttachments :+ attachment(s"$username says $answer", "1"):_*
+          sa.originalAttachments :+ attachment(s"${sa.user.mention} says $answer", "1"):_*
         )
 
       case sa @ SlackAction.SelectedOption(cmd, arg) =>

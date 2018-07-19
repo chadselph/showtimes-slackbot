@@ -38,7 +38,9 @@ case class OriginalMessage(
 )
 
 object SlackAction {
-  case class User(id: String, name: String)
+  case class User(id: String, name: String) {
+    def mention = s"<@$id|$name>"
+  }
   case class Team(id: String, domain: String)
   case class Channel(id: String, name: String)
   case class SelectedOption(value: String)
